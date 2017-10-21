@@ -13,11 +13,8 @@
                 <a class="navbar-brand l_branco" href="">eXplicador</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
-                <!--<ul class="nav navbar-nav">-->
-                    <!--<li class="active"><a href="">Home</a></li>-->
-                <!--</ul>-->
 
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav md-icon-button">
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle l_branco" data-toggle="dropdown">Cadastro <span class="caret"></span></a>
                         <ul class="dropdown-menu dropdown-lr animated slideInLeft" role="menu">

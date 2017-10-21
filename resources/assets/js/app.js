@@ -37,10 +37,12 @@ let cabecalho = require('./components/cabecalho.vue');
 
 let left = require('./components/menu.vue');
 
+let right = require('./components/right.vue');
+
 
 const app = new Vue({
     el: '#app',
 
-    components:{cabecalho, wall, left}
+    components:{cabecalho, wall, left, right}
 
 });

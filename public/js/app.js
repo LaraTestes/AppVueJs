@@ -11772,10 +11772,12 @@ var cabecalho = __webpack_require__(52);
 
 var left = __webpack_require__(48);
 
+var right = __webpack_require__(70);
+
 var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
   el: '#app',
 
-  components: { cabecalho: cabecalho, wall: wall, left: left }
+  components: { cabecalho: cabecalho, wall: wall, left: left, right: right }
 
 });
 
@@ -43766,7 +43768,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* Fixed navbar */\nbody {\n    padding-top: 53px;\n    background-color: #f0f0f0 !important;\n    font-size: 12px !important;\n}\n/* General sizing */\nul.dropdown-lr {\n    width: 220px;\n}\n\n/* mobile fix */\n@media (max-width: 768px) {\n.dropdown-lr h5 {\n        color: #eee;\n}\n.dropdown-lr label {\n        color: #eee;\n}\n}\nnav.init{\n    height: 35px;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* Fixed navbar */\nbody {\n    padding-top: 53px;\n    background-color: #f0f0f0 !important;\n    font-size: 12px !important;\n}\n/* General sizing */\nul.dropdown-lr {\n    width: 220px;\n}\n\n/* mobile fix */\n@media (max-width: 768px) {\n.dropdown-lr h5 {\n        color: #eee;\n}\n.dropdown-lr label {\n        color: #eee;\n}\n}\nnav.init{\n    height: 35px;\n}\n", ""]);
 
 // exports
 
@@ -44089,7 +44091,7 @@ var staticRenderFns = [
                 attrs: { id: "navbar" }
               },
               [
-                _c("ul", { staticClass: "nav navbar-nav navbar-right" }, [
+                _c("ul", { staticClass: "nav navbar-nav md-icon-button" }, [
                   _c("li", { staticClass: "dropdown" }, [
                     _c(
                       "a",
@@ -44468,6 +44470,216 @@ exports.push([module.i, "\n.b_rad{\n    border-radius: 5px !important;\n}\nmd-bu
 
 // exports
 
+
+/***/ }),
+/* 70 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(71)
+}
+var normalizeComponent = __webpack_require__(1)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = __webpack_require__(73)
+/* template functional */
+  var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\right.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-488dce6a", Component.options)
+  } else {
+    hotAPI.reload("data-v-488dce6a", Component.options)
+' + '  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 71 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(72);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(55)("1f03820d", content, false);
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-488dce6a\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./right.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-488dce6a\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./right.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 72 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(11)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "\n.b_rad{\n    border-radius: 5px !important;\n}\nmd-button{\n    font-size: 11px !important;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 73 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "md-card",
+    {},
+    [
+      _c("p", { staticClass: "p-2 verde-text content-center" }, [
+        _vm._v("Melhores explicadores")
+      ]),
+      _vm._v(" "),
+      _c("md-divider"),
+      _vm._v(" "),
+      _c(
+        "md-list",
+        { staticClass: "custom-list md-triple-line" },
+        [
+          _c(
+            "md-list-item",
+            { staticClass: "p-1" },
+            [
+              _c("md-avatar", [
+                _c("img", {
+                  attrs: {
+                    src: "https://placeimg.com/40/40/people/1",
+                    alt: "People"
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "md-list-text-container" }, [
+                _c("span", [_vm._v("Claud Sumbus")]),
+                _vm._v(" "),
+                _c("span", [_vm._v("UEM,F.Ciencias")]),
+                _vm._v(" "),
+                _c("p", [_vm._v("FP, PW, DAW, PW")])
+              ]),
+              _vm._v(" "),
+              _c("md-divider", { staticClass: "md-inset" })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "md-list-item",
+            [
+              _c("md-avatar", [
+                _c("img", {
+                  attrs: {
+                    src: "https://placeimg.com/40/40/people/1",
+                    alt: "People"
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "md-list-text-container" }, [
+                _c("span", [_vm._v("Ali Connors")]),
+                _vm._v(" "),
+                _c("span", [_vm._v("Brunch this weekend?")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("I'll be in your neighborhood doing errands...")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("md-divider", { staticClass: "md-inset" })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "md-list-item",
+            [
+              _c("md-avatar", [
+                _c("img", {
+                  attrs: {
+                    src: "https://placeimg.com/40/40/people/1",
+                    alt: "People"
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "md-list-text-container" }, [
+                _c("span", [_vm._v("Ali Connors")]),
+                _vm._v(" "),
+                _c("span", [_vm._v("Brunch this weekend?")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("I'll be in your neighborhood doing errands...")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("md-divider", { staticClass: "md-inset" })
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-488dce6a", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);

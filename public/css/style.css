@@ -7,6 +7,12 @@ html, body {
   font-size: 12px;
 }
 
+/*Fontes Sizes*/
+
+span{
+  font-size: 11px !important;
+}
+
 div, p, a {
   font-size: 12px !important;
 }
@@ -18,7 +24,8 @@ div, p, a {
 
 .content-center{
   margin-left: 10% !important;
-  width: 70% !important;
+  width: 80% !important;
+  margin-right:  10% !important;
 }
 
 
