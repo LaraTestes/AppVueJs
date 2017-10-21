@@ -8,19 +8,19 @@
     <div class="container mt-2 content-center">
 
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 col-2 col-sm-3">
 
                 <left></left>
 
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6 col-7">
 
                 <wall></wall>
 
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-3 col-3">
                 <right></right>
 
             </div>

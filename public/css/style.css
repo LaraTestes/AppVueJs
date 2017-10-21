@@ -18,16 +18,43 @@ div, p, a {
 }
 
 
+
 /*==========================================================*/
 /*=================Configuracoes do content==================================*/
 /*==========================================================*/
 
-.content-center{
-  margin-left: 10% !important;
-  width: 80% !important;
-  margin-right:  10% !important;
+
+
+
+
+/*===========================================================================*/
+/*=================RESPONSIVIDADE ==================================*/
+/*===========================================================================*/
+
+@media (min-width: 920px) {
+
+
+  .content-center{
+    margin-left: 10% !important;
+    width: 80% !important;
+    margin-right:  10% !important;
+  }
+
 }
 
+@media  (min-width: 400px) and (max-width: 1000px) {
+
+  .content-center{
+    margin-left: 1% !important;
+    width: 98% !important;
+    margin-right:  1% !important;
+  }
+  
+}
+
+}
+
+/*=================================*/
 
 
 

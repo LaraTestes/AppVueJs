@@ -4,28 +4,28 @@
     <div class="b_rad">
 
         <p class="bg p-2">
-            <a href="/">
+            <a class="l_verde" href="/">
                 <md-icon>perm_identity</md-icon>
                 <span>eXplicador</span>
             </a>
         </p>
 
         <p class="bg p-2">
-            <a href="/">
+            <a class="l_verde" href="/">
                 <md-icon>question_answer</md-icon>
                 <span>Dúvidas</span>
             </a>
         </p>
 
         <p class="bg p-2">
-            <a href="/">
+            <a class="l_verde" href="/">
                 <md-icon>question_answer</md-icon>
                 <span>Mensagens</span>
             </a>
         </p>
 
         <p class="bg p-2">
-            <a href="/">
+            <a class="l_verde" href="/">
                 <md-icon>book</md-icon>
                 <span>Artigos</span>
             </a>
