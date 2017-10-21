@@ -14,10 +14,11 @@
     <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+{{--    <link href="{{ asset('css/app.css') }}" rel="stylesheet">--}}
 </head>
 <body>
     <div id="app">
+        <cabecalho></cabecalho>
 
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
