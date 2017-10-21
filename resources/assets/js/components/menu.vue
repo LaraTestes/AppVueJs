@@ -1,25 +1,36 @@
 <template>
 
     <!--<md-card>-->
-    <div class="sombra-1 b_rad">
+    <div class="b_rad">
 
-        <md-card>
-            <md-card-header>
-                <md-card-header-text>
-                    <div class="md-title">Title goes here</div>
-                    <div class="md-subhead">Subtitle here</div>
-                </md-card-header-text>
+        <p class="bg p-2">
+            <a href="/">
+                <md-icon>perm_identity</md-icon>
+                <span>eXplicador</span>
+            </a>
+        </p>
 
-                <md-card-media>
-                    <img src="http://vuematerial.io/assets/avatar-2.jpg" alt="People">
-                </md-card-media>
-            </md-card-header>
+        <p class="bg p-2">
+            <a href="/">
+                <md-icon>question_answer</md-icon>
+                <span>Dúvidas</span>
+            </a>
+        </p>
 
-            <md-card-actions>
-                <md-button>Action</md-button>
-                <md-button>Action</md-button>
-            </md-card-actions>
-        </md-card>
+        <p class="bg p-2">
+            <a href="/">
+                <md-icon>question_answer</md-icon>
+                <span>Mensagens</span>
+            </a>
+        </p>
+
+        <p class="bg p-2">
+            <a href="/">
+                <md-icon>book</md-icon>
+                <span>Artigos</span>
+            </a>
+        </p>
+
 
     </div>
 
@@ -33,6 +44,10 @@
 
     .b_rad{
         border-radius: 8px !important;
+    }
+
+    p.bg{
+        background-color: #f4f4f4;
     }
 
 </style>

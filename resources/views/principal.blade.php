@@ -5,10 +5,10 @@
 
 <cabecalho></cabecalho>
 
-    <div class="container mt-2">
+    <div class="container mt-2 content-center">
 
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-3">
 
                 <left></left>
 
@@ -16,27 +16,7 @@
 
             <div class="col-md-6">
 
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <wall></wall>
-                    </div>
-
-                    <div class="col-md-6">
-                        <wall></wall>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <wall></wall>
-                    </div>
-
-                    <div class="col-md-6">
-                        <wall></wall>
-                    </div>
-                </div>
-
-
+                <wall></wall>
 
             </div>
 

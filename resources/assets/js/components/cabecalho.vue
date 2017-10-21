@@ -1,7 +1,7 @@
 <template>
 
     <nav class="navbar navbar-fixed-top verde  sombra-1 init" role="navigation" >
-        <div class="container">
+        <div class="container content-center">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -13,9 +13,9 @@
                 <a class="navbar-brand l_branco" href="">eXplicador</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="">Home</a></li>
-                </ul>
+                <!--<ul class="nav navbar-nav">-->
+                    <!--<li class="active"><a href="">Home</a></li>-->
+                <!--</ul>-->
 
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">

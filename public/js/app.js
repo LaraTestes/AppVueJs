@@ -43423,53 +43423,59 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { staticClass: "sombra-1 b_rad" },
-    [
+  return _c("div", { staticClass: "b_rad" }, [
+    _c("p", { staticClass: "bg p-2" }, [
       _c(
-        "md-card",
+        "a",
+        { attrs: { href: "/" } },
         [
-          _c(
-            "md-card-header",
-            [
-              _c("md-card-header-text", [
-                _c("div", { staticClass: "md-title" }, [
-                  _vm._v("Title goes here")
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "md-subhead" }, [
-                  _vm._v("Subtitle here")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("md-card-media", [
-                _c("img", {
-                  attrs: {
-                    src: "http://vuematerial.io/assets/avatar-2.jpg",
-                    alt: "People"
-                  }
-                })
-              ])
-            ],
-            1
-          ),
+          _c("md-icon", [_vm._v("perm_identity")]),
           _vm._v(" "),
-          _c(
-            "md-card-actions",
-            [
-              _c("md-button", [_vm._v("Action")]),
-              _vm._v(" "),
-              _c("md-button", [_vm._v("Action")])
-            ],
-            1
-          )
+          _c("span", [_vm._v("eXplicador")])
         ],
         1
       )
-    ],
-    1
-  )
+    ]),
+    _vm._v(" "),
+    _c("p", { staticClass: "bg p-2" }, [
+      _c(
+        "a",
+        { attrs: { href: "/" } },
+        [
+          _c("md-icon", [_vm._v("question_answer")]),
+          _vm._v(" "),
+          _c("span", [_vm._v("Dúvidas")])
+        ],
+        1
+      )
+    ]),
+    _vm._v(" "),
+    _c("p", { staticClass: "bg p-2" }, [
+      _c(
+        "a",
+        { attrs: { href: "/" } },
+        [
+          _c("md-icon", [_vm._v("question_answer")]),
+          _vm._v(" "),
+          _c("span", [_vm._v("Mensagens")])
+        ],
+        1
+      )
+    ]),
+    _vm._v(" "),
+    _c("p", { staticClass: "bg p-2" }, [
+      _c(
+        "a",
+        { attrs: { href: "/" } },
+        [
+          _c("md-icon", [_vm._v("book")]),
+          _vm._v(" "),
+          _c("span", [_vm._v("Artigos")])
+        ],
+        1
+      )
+    ])
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -43542,43 +43548,117 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "div",
-    { staticClass: "b_rad" },
+    "md-card",
+    {},
     [
       _c(
-        "md-card",
+        "md-list",
+        { staticClass: "custom-list md-triple-line" },
         [
           _c(
-            "md-card-header",
+            "md-list-item",
             [
-              _c("md-card-header-text", [
-                _c("div", { staticClass: "md-title" }, [
-                  _vm._v("Title goes here")
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "md-subhead" }, [
-                  _vm._v("Subtitle here")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("md-card-media", [
+              _c("md-avatar", [
                 _c("img", {
                   attrs: {
-                    src: "http://vuematerial.io/assets/avatar-2.jpg",
+                    src: "https://placeimg.com/40/40/people/1",
                     alt: "People"
                   }
                 })
-              ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "md-list-text-container" }, [
+                _c("span", [_vm._v("Ali Connors")]),
+                _vm._v(" "),
+                _c("span", [_vm._v("Brunch this weekend?")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("I'll be in your neighborhood doing errands...")
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "md-button",
+                { staticClass: "md-icon-button md-list-action" },
+                [
+                  _c("md-icon", { staticClass: "md-primary" }, [_vm._v("star")])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("md-divider", { staticClass: "md-inset" })
             ],
             1
           ),
           _vm._v(" "),
           _c(
-            "md-card-actions",
+            "md-list-item",
             [
-              _c("md-button", [_vm._v("Action")]),
+              _c("md-avatar", [
+                _c("img", {
+                  attrs: {
+                    src: "https://placeimg.com/40/40/people/1",
+                    alt: "People"
+                  }
+                })
+              ]),
               _vm._v(" "),
-              _c("md-button", [_vm._v("Action")])
+              _c("div", { staticClass: "md-list-text-container" }, [
+                _c("span", [_vm._v("Ali Connors")]),
+                _vm._v(" "),
+                _c("span", [_vm._v("Brunch this weekend?")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("I'll be in your neighborhood doing errands...")
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "md-button",
+                { staticClass: "md-icon-button md-list-action" },
+                [
+                  _c("md-icon", { staticClass: "md-primary" }, [_vm._v("star")])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("md-divider", { staticClass: "md-inset" })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "md-list-item",
+            [
+              _c("md-avatar", [
+                _c("img", {
+                  attrs: {
+                    src: "https://placeimg.com/40/40/people/1",
+                    alt: "People"
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "md-list-text-container" }, [
+                _c("span", [_vm._v("Ali Connors")]),
+                _vm._v(" "),
+                _c("span", [_vm._v("Brunch this weekend?")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("I'll be in your neighborhood doing errands...")
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "md-button",
+                { staticClass: "md-icon-button md-list-action" },
+                [
+                  _c("md-icon", { staticClass: "md-primary" }, [_vm._v("star")])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("md-divider", { staticClass: "md-inset" })
             ],
             1
           )
@@ -43967,7 +44047,7 @@ var staticRenderFns = [
         attrs: { role: "navigation" }
       },
       [
-        _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "container content-center" }, [
           _c("div", { staticClass: "container" }, [
             _c("div", { staticClass: "navbar-header" }, [
               _c(
@@ -44009,12 +44089,6 @@ var staticRenderFns = [
                 attrs: { id: "navbar" }
               },
               [
-                _c("ul", { staticClass: "nav navbar-nav" }, [
-                  _c("li", { staticClass: "active" }, [
-                    _c("a", { attrs: { href: "" } }, [_vm._v("Home")])
-                  ])
-                ]),
-                _vm._v(" "),
                 _c("ul", { staticClass: "nav navbar-nav navbar-right" }, [
                   _c("li", { staticClass: "dropdown" }, [
                     _c(
@@ -44349,7 +44423,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, "\n.b_rad{\n    border-radius: 8px !important;\n}\n\n", ""]);
+exports.push([module.i, "\n.b_rad{\n    border-radius: 8px !important;\n}\np.bg{\n    background-color: #f4f4f4;\n}\n\n", ""]);
 
 // exports
 
@@ -44390,7 +44464,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, "\n.b_rad{\n    border-radius: 15px !important;\n}\nmd-button{\n    font-size: 11px !important;\n}\n", ""]);
+exports.push([module.i, "\n.b_rad{\n    border-radius: 5px !important;\n}\nmd-button{\n    font-size: 11px !important;\n}\n", ""]);
 
 // exports
 
