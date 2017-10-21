@@ -1,9 +1,32 @@
 /*====================GERAIS============================*/
 html, body {
   height: 100%;
-  background-color: #f0f0f0;
+  background-color: #f0f0f0 !important;
   position: relative;
   z-index: 1;
+  font-size: 12px;
+}
+
+div, p, a {
+  font-size: 12px !important;
+}
+
+
+/*==========================================================*/
+/*=================Nav bar==================================*/
+/*==========================================================*/
+
+.navbar-default {
+  height: 30px !important;
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 50px;
+}
+.navbar-form {
+  margin-top: 22px;
 }
 
 

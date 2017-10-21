@@ -1,7 +1,7 @@
 <template>
 
     <!--<md-card>-->
-    <div class="b_rad">
+    <div class="sombra-1 b_rad">
 
         <md-card>
             <md-card-header>
@@ -20,6 +20,7 @@
                 <md-button>Action</md-button>
             </md-card-actions>
         </md-card>
+
     </div>
 
     <!--</md-card>-->
@@ -28,13 +29,10 @@
 
 </template>
 
-
 <style>
+
     .b_rad{
-        border-radius: 15px !important;
+        border-radius: 8px !important;
     }
 
-    md-button{
-        font-size: 11px !important;
-    }
 </style>

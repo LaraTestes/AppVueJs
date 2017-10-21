@@ -10,13 +10,33 @@
         <div class="row">
             <div class="col-md-2">
 
-
+                <left></left>
 
             </div>
 
             <div class="col-md-6">
 
-                <wall></wall>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <wall></wall>
+                    </div>
+
+                    <div class="col-md-6">
+                        <wall></wall>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <wall></wall>
+                    </div>
+
+                    <div class="col-md-6">
+                        <wall></wall>
+                    </div>
+                </div>
+
+
 
             </div>
 
