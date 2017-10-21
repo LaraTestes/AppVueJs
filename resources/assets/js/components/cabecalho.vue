@@ -2,7 +2,6 @@
 
     <nav class="navbar navbar-fixed-top verde  sombra-1 init" role="navigation" >
         <div class="container content-center">
-        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -14,7 +13,7 @@
             </div>
             <div id="navbar" class="collapse navbar-collapse">
 
-                <ul class="nav navbar-nav md-icon-button">
+                <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle l_branco" data-toggle="dropdown">Cadastro <span class="caret"></span></a>
                         <ul class="dropdown-menu dropdown-lr animated slideInLeft" role="menu">
@@ -90,7 +89,6 @@
                     </li>
                 </ul>
             </div>
-        </div>
         </div>
     </nav>
 
