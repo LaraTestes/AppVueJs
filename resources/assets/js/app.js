@@ -30,13 +30,17 @@ Vue.use(VueMaterial)
 
 Vue.component('example', require('./components/Example.vue'));
 
-let teste = require('./components/teste.vue');
+
+let wall = require('./components/wall.vue');
 
 let cabecalho = require('./components/cabecalho.vue');
+
+// let menu = require('./components/menu.vue');
+
 
 const app = new Vue({
     el: '#app',
 
-    components:{teste, cabecalho}
+    components:{cabecalho, wall}
 
 });

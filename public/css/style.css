@@ -1,7 +1,7 @@
 /*====================GERAIS============================*/
 html, body {
   height: 100%;
-  background-color: #eeeeee;
+  background-color: #f0f0f0;
   position: relative;
   z-index: 1;
 }
@@ -78,17 +78,17 @@ a.l_laranja:active {text-decoration:none !important;color:#e95a29 !important;}
 a.l_laranja:hover {text-decoration:none !important;color:#e95a29 !important;} 
 
 .b_rad{
-  border-radius: 8px;
+  border-radius: 8px !important;
 }
 
 .b_rad_esq{
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
   }
 
   .b_rad_dir{
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
   }
 .linha{
   border-top: 1px solid #00A898;

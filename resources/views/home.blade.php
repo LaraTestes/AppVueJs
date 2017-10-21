@@ -15,8 +15,9 @@
                     @endif
 
                     <div class="row">
-                        <div class="col-md-4">
-
+                        <div class="col-md-4 ml-4 bg-danger">
+                            <p class="m-5 bg-blue">texto</p>
+                            <p class="p-3 bg-cyan">texto2</p>
                         </div>
                         <div class="col-md-5">
                             <cabecalho></cabecalho>
