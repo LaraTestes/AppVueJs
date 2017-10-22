@@ -66,7 +66,12 @@ let messagens = require('./components/opcoes-menu/messagens.vue');
 
 let explicadores = require('./components/opcoes-menu/explicadores.vue');
 
+//============Perfil======================================
 let perfil = require('./components/perfil/index.vue');
+
+//===============Disciplinas=============================
+
+let disciplina =  require('./components/disciplinas/index.vue');
 
 
 //========================================================//
@@ -78,7 +83,8 @@ const routes = [
     { path: '/artigos', component: artigos },
     { path: '/messagens', component: messagens },
     { path: '/explicadores', component: explicadores },
-    { path: '/perfil', component: perfil }
+    { path: '/perfil', component: perfil },
+    { path: '/disciplinas', component: disciplina }
 
 ]
 

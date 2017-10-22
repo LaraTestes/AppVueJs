@@ -18,8 +18,15 @@
         </p>
 
         <p class="bg p-2">
-            <router-link to="/messagens" class="l_verde">
+            <router-link to="/disciplinas" class="l_verde">
                 <md-icon>book</md-icon>
+                disciplinas
+            </router-link>
+        </p>
+
+        <p class="bg p-2">
+            <router-link to="/messagens" class="l_verde">
+                <md-icon>question_answer</md-icon>
                 mensagens
             </router-link>
         </p>
