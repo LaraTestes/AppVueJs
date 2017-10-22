@@ -49,7 +49,7 @@ let left = require('./components/menu.vue');
 
 let right = require('./components/right.vue');
 
-let duvida = require('./components/duvida.vue');
+let duvida = require('./components/form-duvida.vue');
 
 
 //======================================================//

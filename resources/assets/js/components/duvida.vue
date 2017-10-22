@@ -1,50 +1,22 @@
 <template>
 
-    <md-card class=" p-3">
+    <md-card class="">
+        <md-card md-with-hover>
+            <md-card-header>
+                <div class="md-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque?</div>
+                <div class="md-subhead">POO, Java</div>
+            </md-card-header>
 
-        <!--<h5 class="verde-text">Publique aqui a tua dúvida</h5>-->
+            <md-card-content>
+                Informática, DMI, UEM
+            </md-card-content>
 
-        <form action="">
-
-            <md-input-container>
-                <label>Escrever</label>
-                <md-textarea></md-textarea>
-            </md-input-container>
-
-            <md-input-container>
-                <label>Clique aqui para adicionar imagem também</label>
-                <md-file v-model="onlyImages" accept="image/*"></md-file>
-            </md-input-container>
-
-
-            <md-card-actions class="p-1">
-                <md-button class="md-raised md-primary verde"><span>Enviar</span></md-button>
-            </md-card-actions>
-
-        </form>
+            <md-bottom-bar>
+                <md-bottom-bar-item md-icon="favorite" md-active>Gostar</md-bottom-bar-item>
+                <md-bottom-bar-item md-icon="visibility">Ver</md-bottom-bar-item>
+            </md-bottom-bar>
+        </md-card>
     </md-card>
 
 </template>
 
-<script>
-
-    export default {
-        data: () => ({
-            single: null,
-            placeholder: null,
-            initialValue: 'my-profile-picture.jpg',
-            multiple: null,
-            onlyImages: null
-        })
-    };
-
-</script>
-
-
-<style>
-
-    md-button{
-        font-size:8px !important;
-    }
-
-</style>
