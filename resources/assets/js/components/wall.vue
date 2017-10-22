@@ -2,11 +2,11 @@
 
     <div>
 
-        <h5 class="verde-text content-center bg p-2">Publique aqui a tua dúvida</h5>
+        <h5 class="verde-text content-center bg p-2 sombra-1">Publique aqui a tua dúvida</h5>
 
         <fduvida></fduvida>
 
-        <h5 class="verde-text content-center bg p-2">Dúvidas recentes</h5>
+        <h5 class="verde-text content-center bg p-2 sombra-1">Dúvidas recentes</h5>
 
         <duvida class="mb-2"></duvida>
         <duvida class="mb-2"></duvida>

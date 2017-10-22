@@ -46552,13 +46552,13 @@ var render = function() {
   return _c(
     "div",
     [
-      _c("h5", { staticClass: "verde-text content-center bg p-2" }, [
+      _c("h5", { staticClass: "verde-text content-center bg p-2 sombra-1" }, [
         _vm._v("Publique aqui a tua dúvida")
       ]),
       _vm._v(" "),
       _c("fduvida"),
       _vm._v(" "),
-      _c("h5", { staticClass: "verde-text content-center bg p-2" }, [
+      _c("h5", { staticClass: "verde-text content-center bg p-2 sombra-1" }, [
         _vm._v("Dúvidas recentes")
       ]),
       _vm._v(" "),
@@ -47780,7 +47780,7 @@ var render = function() {
   return _c(
     "div",
     [
-      _c("h5", { staticClass: "p-2 verde-text content-center bg" }, [
+      _c("h5", { staticClass: "p-2 sombra-1 verde-text content-center bg" }, [
         _vm._v("Explicadores")
       ]),
       _vm._v(" "),

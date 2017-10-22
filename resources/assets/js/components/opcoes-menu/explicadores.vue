@@ -2,7 +2,7 @@
 
     <div>
 
-        <h5 class="p-2 verde-text content-center bg">Explicadores</h5>
+        <h5 class="p-2 sombra-1 verde-text content-center bg">Explicadores</h5>
 
 
         <!--===========================================-->
