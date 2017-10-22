@@ -8,7 +8,7 @@
                     <md-icon class="verde-text">menu</md-icon>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand l_verde" href="">eXplicador</a>
+                <a class="navbar-brand l_verde" href="#/duvidas">eXplicador</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
 

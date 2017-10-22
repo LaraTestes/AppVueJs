@@ -16,8 +16,11 @@
                         </md-avatar>
 
                         <div class="md-list-text-container">
-                            <span>Ali Connors</span>
-                            <span>Brunch this weekend?</span>
+                            <router-link to="/perfil" class="l_verde">
+                                Claud Sumbus
+                            </router-link>
+                            <!--<span>Claud Sumbus</span>-->
+                            <span>POO, FP, AN, ES, II</span>
                             <p>I'll be in your neighborhood doing errands...</p>
                         </div>
 
@@ -34,9 +37,12 @@
                         </md-avatar>
 
                         <div class="md-list-text-container">
-                            <span>me, Scott, Jennifer</span>
-                            <span>Summer BBQ</span>
-                            <p>Wish I could come, but I'm out of town ...</p>
+                            <router-link to="/perfil" class="l_verde">
+                                José Seie
+                            </router-link>
+                            <!--<span>Claud Sumbus</span>-->
+                            <span>POO, FP, AN, ES, II</span>
+                            <p>I'll be in your neighborhood doing errands...</p>
                         </div>
 
                         <md-button class="md-icon-button md-list-action">
@@ -52,9 +58,11 @@
                         </md-avatar>
 
                         <div class="md-list-text-container">
-                            <span>Sandra Adams</span>
-                            <span>Oui oui</span>
-                            <p>Do you have Paris recommendations ...</p>
+                            <router-link to="/perfil" class="l_verde">
+                                Ana Maria
+                            </router-link>
+                            <span>IE, AS, OI</span>
+                            <p>I'll be in your neighborhood doing errands...</p>
                         </div>
 
                         <md-button class="md-icon-button md-list-action">
@@ -70,9 +78,131 @@
                         </md-avatar>
 
                         <div class="md-list-text-container">
-                            <span>Trevor Hansen</span>
-                            <span>Order confirmation</span>
-                            <p>Thank you for your recent order from ...</p>
+                            <router-link to="/perfil" class="l_verde">
+                                Rosa Cossa
+                            </router-link>
+                            <span>AQ, DE, MDO</span>
+                            <p>I'll be in your neighborhood doing errands...</p>
+                        </div>
+
+                        <md-button class="md-icon-button md-list-action">
+                            <md-icon>star_border</md-icon>
+                        </md-button>
+
+                        <md-divider class="md-inset"></md-divider>
+                    </md-list-item>
+
+                    <md-list-item>
+                        <md-avatar>
+                            <img src="https://placeimg.com/40/40/people/8" alt="People">
+                        </md-avatar>
+
+                        <div class="md-list-text-container">
+                            <router-link to="/perfil" class="l_verde">
+                                Rosa Cossa
+                            </router-link>
+                            <span>AQ, DE, MDO</span>
+                            <p>I'll be in your neighborhood doing errands...</p>
+                        </div>
+
+                        <md-button class="md-icon-button md-list-action">
+                            <md-icon>star_border</md-icon>
+                        </md-button>
+
+                        <md-divider class="md-inset"></md-divider>
+                    </md-list-item>
+
+                    <md-list-item>
+                        <md-avatar>
+                            <img src="https://placeimg.com/40/40/people/8" alt="People">
+                        </md-avatar>
+
+                        <div class="md-list-text-container">
+                            <router-link to="/perfil" class="l_verde">
+                                Rosa Cossa
+                            </router-link>
+                            <span>AQ, DE, MDO</span>
+                            <p>I'll be in your neighborhood doing errands...</p>
+                        </div>
+
+                        <md-button class="md-icon-button md-list-action">
+                            <md-icon>star_border</md-icon>
+                        </md-button>
+
+                        <md-divider class="md-inset"></md-divider>
+                    </md-list-item>
+
+                    <md-list-item>
+                        <md-avatar>
+                            <img src="https://placeimg.com/40/40/people/8" alt="People">
+                        </md-avatar>
+
+                        <div class="md-list-text-container">
+                            <router-link to="/perfil" class="l_verde">
+                                Rosa Cossa
+                            </router-link>
+                            <span>AQ, DE, MDO</span>
+                            <p>I'll be in your neighborhood doing errands...</p>
+                        </div>
+
+                        <md-button class="md-icon-button md-list-action">
+                            <md-icon>star_border</md-icon>
+                        </md-button>
+
+                        <md-divider class="md-inset"></md-divider>
+                    </md-list-item>
+
+                    <md-list-item>
+                        <md-avatar>
+                            <img src="https://placeimg.com/40/40/people/8" alt="People">
+                        </md-avatar>
+
+                        <div class="md-list-text-container">
+                            <router-link to="/perfil" class="l_verde">
+                                Rosa Cossa
+                            </router-link>
+                            <span>AQ, DE, MDO</span>
+                            <p>I'll be in your neighborhood doing errands...</p>
+                        </div>
+
+                        <md-button class="md-icon-button md-list-action">
+                            <md-icon>star_border</md-icon>
+                        </md-button>
+
+                        <md-divider class="md-inset"></md-divider>
+                    </md-list-item>
+
+                    <md-list-item>
+                        <md-avatar>
+                            <img src="https://placeimg.com/40/40/people/8" alt="People">
+                        </md-avatar>
+
+                        <div class="md-list-text-container">
+                            <router-link to="/perfil" class="l_verde">
+                                Rosa Cossa
+                            </router-link>
+                            <span>AQ, DE, MDO</span>
+                            <p>I'll be in your neighborhood doing errands...</p>
+                        </div>
+
+                        <md-button class="md-icon-button md-list-action">
+                            <md-icon>star_border</md-icon>
+                        </md-button>
+
+                        <md-divider class="md-inset"></md-divider>
+                    </md-list-item>
+
+                    <md-list-item>
+                        <md-avatar>
+                            <img src="https://placeimg.com/40/40/people/8" alt="People">
+                        </md-avatar>
+
+                        <div class="md-list-text-container">
+                            <router-link to="/perfil" class="l_verde">
+                                Rosa Cossa
+                            </router-link>
+                            <span>AQ, DE, MDO</span>
+                            <p>I'll be in your neighborhood doing errands...</p>
                         </div>
 
                         <md-button class="md-icon-button md-list-action">

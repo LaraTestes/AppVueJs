@@ -66,6 +66,8 @@ let messagens = require('./components/opcoes-menu/messagens.vue');
 
 let explicadores = require('./components/opcoes-menu/explicadores.vue');
 
+let perfil = require('./components/perfil/index.vue');
+
 
 //========================================================//
 //================== Conficurando a Rota =================//
@@ -75,7 +77,8 @@ const routes = [
     { path: '/duvidas', component: wall },
     { path: '/artigos', component: artigos },
     { path: '/messagens', component: messagens },
-    { path: '/explicadores', component: explicadores }
+    { path: '/explicadores', component: explicadores },
+    { path: '/perfil', component: perfil }
 
 ]
 

@@ -12069,11 +12069,13 @@ var messagens = __webpack_require__(78);
 
 var explicadores = __webpack_require__(80);
 
+var perfil = __webpack_require__(104);
+
 //========================================================//
 //================== Conficurando a Rota =================//
 //========================================================//
 
-var routes = [{ path: '/duvidas', component: wall }, { path: '/artigos', component: artigos }, { path: '/messagens', component: messagens }, { path: '/explicadores', component: explicadores }];
+var routes = [{ path: '/duvidas', component: wall }, { path: '/artigos', component: artigos }, { path: '/messagens', component: messagens }, { path: '/explicadores', component: explicadores }, { path: '/perfil', component: perfil }];
 
 var router = new __WEBPACK_IMPORTED_MODULE_3_vue_router__["a" /* default */]({
 
@@ -46716,7 +46718,10 @@ var render = function() {
           _vm._v(" "),
           _c(
             "a",
-            { staticClass: "navbar-brand l_verde", attrs: { href: "" } },
+            {
+              staticClass: "navbar-brand l_verde",
+              attrs: { href: "#/duvidas" }
+            },
             [_vm._v("eXplicador")]
           )
         ]),
@@ -47805,15 +47810,30 @@ var render = function() {
                       })
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "md-list-text-container" }, [
-                      _c("span", [_vm._v("Ali Connors")]),
-                      _vm._v(" "),
-                      _c("span", [_vm._v("Brunch this weekend?")]),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v("I'll be in your neighborhood doing errands...")
-                      ])
-                    ]),
+                    _c(
+                      "div",
+                      { staticClass: "md-list-text-container" },
+                      [
+                        _c(
+                          "router-link",
+                          { staticClass: "l_verde", attrs: { to: "/perfil" } },
+                          [
+                            _vm._v(
+                              "\n                            Claud Sumbus\n                        "
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("span", [_vm._v("POO, FP, AN, ES, II")]),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "I'll be in your neighborhood doing errands..."
+                          )
+                        ])
+                      ],
+                      1
+                    ),
                     _vm._v(" "),
                     _c(
                       "md-button",
@@ -47843,15 +47863,30 @@ var render = function() {
                       })
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "md-list-text-container" }, [
-                      _c("span", [_vm._v("me, Scott, Jennifer")]),
-                      _vm._v(" "),
-                      _c("span", [_vm._v("Summer BBQ")]),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v("Wish I could come, but I'm out of town ...")
-                      ])
-                    ]),
+                    _c(
+                      "div",
+                      { staticClass: "md-list-text-container" },
+                      [
+                        _c(
+                          "router-link",
+                          { staticClass: "l_verde", attrs: { to: "/perfil" } },
+                          [
+                            _vm._v(
+                              "\n                            José Seie\n                        "
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("span", [_vm._v("POO, FP, AN, ES, II")]),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "I'll be in your neighborhood doing errands..."
+                          )
+                        ])
+                      ],
+                      1
+                    ),
                     _vm._v(" "),
                     _c(
                       "md-button",
@@ -47877,13 +47912,30 @@ var render = function() {
                       })
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "md-list-text-container" }, [
-                      _c("span", [_vm._v("Sandra Adams")]),
-                      _vm._v(" "),
-                      _c("span", [_vm._v("Oui oui")]),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("Do you have Paris recommendations ...")])
-                    ]),
+                    _c(
+                      "div",
+                      { staticClass: "md-list-text-container" },
+                      [
+                        _c(
+                          "router-link",
+                          { staticClass: "l_verde", attrs: { to: "/perfil" } },
+                          [
+                            _vm._v(
+                              "\n                            Ana Maria\n                        "
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("span", [_vm._v("IE, AS, OI")]),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "I'll be in your neighborhood doing errands..."
+                          )
+                        ])
+                      ],
+                      1
+                    ),
                     _vm._v(" "),
                     _c(
                       "md-button",
@@ -47909,15 +47961,324 @@ var render = function() {
                       })
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "md-list-text-container" }, [
-                      _c("span", [_vm._v("Trevor Hansen")]),
-                      _vm._v(" "),
-                      _c("span", [_vm._v("Order confirmation")]),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v("Thank you for your recent order from ...")
-                      ])
+                    _c(
+                      "div",
+                      { staticClass: "md-list-text-container" },
+                      [
+                        _c(
+                          "router-link",
+                          { staticClass: "l_verde", attrs: { to: "/perfil" } },
+                          [
+                            _vm._v(
+                              "\n                            Rosa Cossa\n                        "
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("span", [_vm._v("AQ, DE, MDO")]),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "I'll be in your neighborhood doing errands..."
+                          )
+                        ])
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "md-button",
+                      { staticClass: "md-icon-button md-list-action" },
+                      [_c("md-icon", [_vm._v("star_border")])],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("md-divider", { staticClass: "md-inset" })
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "md-list-item",
+                  [
+                    _c("md-avatar", [
+                      _c("img", {
+                        attrs: {
+                          src: "https://placeimg.com/40/40/people/8",
+                          alt: "People"
+                        }
+                      })
                     ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "md-list-text-container" },
+                      [
+                        _c(
+                          "router-link",
+                          { staticClass: "l_verde", attrs: { to: "/perfil" } },
+                          [
+                            _vm._v(
+                              "\n                            Rosa Cossa\n                        "
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("span", [_vm._v("AQ, DE, MDO")]),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "I'll be in your neighborhood doing errands..."
+                          )
+                        ])
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "md-button",
+                      { staticClass: "md-icon-button md-list-action" },
+                      [_c("md-icon", [_vm._v("star_border")])],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("md-divider", { staticClass: "md-inset" })
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "md-list-item",
+                  [
+                    _c("md-avatar", [
+                      _c("img", {
+                        attrs: {
+                          src: "https://placeimg.com/40/40/people/8",
+                          alt: "People"
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "md-list-text-container" },
+                      [
+                        _c(
+                          "router-link",
+                          { staticClass: "l_verde", attrs: { to: "/perfil" } },
+                          [
+                            _vm._v(
+                              "\n                            Rosa Cossa\n                        "
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("span", [_vm._v("AQ, DE, MDO")]),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "I'll be in your neighborhood doing errands..."
+                          )
+                        ])
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "md-button",
+                      { staticClass: "md-icon-button md-list-action" },
+                      [_c("md-icon", [_vm._v("star_border")])],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("md-divider", { staticClass: "md-inset" })
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "md-list-item",
+                  [
+                    _c("md-avatar", [
+                      _c("img", {
+                        attrs: {
+                          src: "https://placeimg.com/40/40/people/8",
+                          alt: "People"
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "md-list-text-container" },
+                      [
+                        _c(
+                          "router-link",
+                          { staticClass: "l_verde", attrs: { to: "/perfil" } },
+                          [
+                            _vm._v(
+                              "\n                            Rosa Cossa\n                        "
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("span", [_vm._v("AQ, DE, MDO")]),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "I'll be in your neighborhood doing errands..."
+                          )
+                        ])
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "md-button",
+                      { staticClass: "md-icon-button md-list-action" },
+                      [_c("md-icon", [_vm._v("star_border")])],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("md-divider", { staticClass: "md-inset" })
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "md-list-item",
+                  [
+                    _c("md-avatar", [
+                      _c("img", {
+                        attrs: {
+                          src: "https://placeimg.com/40/40/people/8",
+                          alt: "People"
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "md-list-text-container" },
+                      [
+                        _c(
+                          "router-link",
+                          { staticClass: "l_verde", attrs: { to: "/perfil" } },
+                          [
+                            _vm._v(
+                              "\n                            Rosa Cossa\n                        "
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("span", [_vm._v("AQ, DE, MDO")]),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "I'll be in your neighborhood doing errands..."
+                          )
+                        ])
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "md-button",
+                      { staticClass: "md-icon-button md-list-action" },
+                      [_c("md-icon", [_vm._v("star_border")])],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("md-divider", { staticClass: "md-inset" })
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "md-list-item",
+                  [
+                    _c("md-avatar", [
+                      _c("img", {
+                        attrs: {
+                          src: "https://placeimg.com/40/40/people/8",
+                          alt: "People"
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "md-list-text-container" },
+                      [
+                        _c(
+                          "router-link",
+                          { staticClass: "l_verde", attrs: { to: "/perfil" } },
+                          [
+                            _vm._v(
+                              "\n                            Rosa Cossa\n                        "
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("span", [_vm._v("AQ, DE, MDO")]),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "I'll be in your neighborhood doing errands..."
+                          )
+                        ])
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "md-button",
+                      { staticClass: "md-icon-button md-list-action" },
+                      [_c("md-icon", [_vm._v("star_border")])],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("md-divider", { staticClass: "md-inset" })
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "md-list-item",
+                  [
+                    _c("md-avatar", [
+                      _c("img", {
+                        attrs: {
+                          src: "https://placeimg.com/40/40/people/8",
+                          alt: "People"
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "md-list-text-container" },
+                      [
+                        _c(
+                          "router-link",
+                          { staticClass: "l_verde", attrs: { to: "/perfil" } },
+                          [
+                            _vm._v(
+                              "\n                            Rosa Cossa\n                        "
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("span", [_vm._v("AQ, DE, MDO")]),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "I'll be in your neighborhood doing errands..."
+                          )
+                        ])
+                      ],
+                      1
+                    ),
                     _vm._v(" "),
                     _c(
                       "md-button",
@@ -48333,6 +48694,86 @@ exports.push([module.i, "\n.md-list.md-triple-line .md-list-item .md-list-item-c
 
 // exports
 
+
+/***/ }),
+/* 101 */,
+/* 102 */,
+/* 103 */,
+/* 104 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(1)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = __webpack_require__(105)
+/* template functional */
+  var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\perfil\\index.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-5c2dc171", Component.options)
+  } else {
+    hotAPI.reload("data-v-5c2dc171", Component.options)
+' + '  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 105 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "sombra-1 p-2 white" }, [
+      _c("h4", [_vm._v("Perfil do Explicador")])
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-5c2dc171", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);
