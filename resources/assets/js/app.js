@@ -12,12 +12,18 @@ window.Vue = require('vue');
 import Vue from 'vue'
 
 
-//
+// Importacao do VueMaterial
 import VueMaterial from 'vue-material'
 
 import 'vue-material/dist/vue-material.css'
 
 Vue.use(VueMaterial)
+
+// Importacao do Vue-router
+import VueRouter from 'vue-router'
+
+Vue.use(VueRouter)
+
 
 
 /**
