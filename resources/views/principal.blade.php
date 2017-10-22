@@ -16,13 +16,13 @@
 
             <div class="col-md-7 col-sm-7 col-7">
 
-                <h5 class="verde-text content-center bg p-2">Publique aqui a tua dúvida</h5>
+                {{--<h5 class="verde-text content-center bg p-2">Publique aqui a tua dúvida</h5>--}}
 
                 <md-divider></md-divider>
 
                 <duvida class="mb-2"></duvida>
 
-                <h5 class="verde-text content-center bg p-2">Dúvidas recentes</h5>
+                {{--<h5 class="verde-text content-center bg p-2">Dúvidas recentes</h5>--}}
 
                 <md-divider></md-divider>
 

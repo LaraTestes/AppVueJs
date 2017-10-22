@@ -68,24 +68,25 @@ let explicadores = require('./components/opcoes-menu/explicadores.vue');
 //========================================================//
 //================== Conficurando a Rota =================//
 //========================================================//
-const router = new VueRouter()
 
-router.map({
-    '/duvidas': {
-        component: duvidas
-    },
-    '/artigos': {
-        component: artigos
-    },
+const routes = [
+    { path: '/duvidas', component: duvidas },
+    { path: '/artigos', component: artigos },
+    { path: '/messagens', component: messagens },
+    { path: '/explicadores', component: explicadores }
 
-    'messagens' : {
-        component: messagens
-    },
+]
 
-    'explicadores' : {
-        component: explicadores
-    }
+
+const router = new VueRouter({
+
+    // Elimina o # antes da rota
+    mode: 'history',
+
+    routes // short for `routes: routes`
+
 })
+
 
 
 const app = new Vue({

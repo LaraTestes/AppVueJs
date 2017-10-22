@@ -1,6 +1,15 @@
 <template>
 
-    <md-card class="">
+    <div>
+
+        <h5 class="verde-text content-center bg p-2">Publique aqui a tua dúvida</h5>
+
+        <duvida></duvida>
+
+        <h5 class="verde-text content-center bg p-2">Dúvidas recentes</h5>
+
+
+        <md-card class="">
         <md-card md-with-hover>
             <md-card-header>
                 <div class="md-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque?</div>
@@ -19,8 +28,27 @@
         </md-card>
     </md-card>
 
-
+    </div>
 </template>
+
+<script>
+
+    let duvida = require('./duvida.vue');
+
+    export default {
+
+        components: {duvida},
+
+        data() {
+            return {
+                addActive: '',
+
+            }
+        }
+
+    }
+
+</script>
 
 
 <style>
