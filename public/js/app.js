@@ -44032,7 +44032,7 @@ var staticRenderFns = [
                   _c(
                     "a",
                     {
-                      staticClass: "dropdown-toggle l_branco",
+                      staticClass: "dropdown-toggle l_verde",
                       attrs: { href: "", "data-toggle": "dropdown" }
                     },
                     [_vm._v("Cadastro "), _c("span", { staticClass: "caret" })]
@@ -44154,7 +44154,7 @@ var staticRenderFns = [
                   _c(
                     "a",
                     {
-                      staticClass: "dropdown-toggle l_branco",
+                      staticClass: "dropdown-toggle l_verde",
                       attrs: { href: "", "data-toggle": "dropdown" }
                     },
                     [_vm._v("Log In "), _c("span", { staticClass: "caret" })]

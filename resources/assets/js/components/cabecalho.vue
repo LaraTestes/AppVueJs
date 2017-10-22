@@ -22,7 +22,7 @@
 
                     <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
-                        <a href="" class="dropdown-toggle l_branco" data-toggle="dropdown">Cadastro <span class="caret"></span></a>
+                        <a href="" class="dropdown-toggle l_verde" data-toggle="dropdown">Cadastro <span class="caret"></span></a>
                         <ul class="dropdown-menu dropdown-lr animated slideInLeft" role="menu">
                             <div class="col-md-12">
                                 <div class="text-center"><h5><b>Register</b></h5></div>
@@ -52,7 +52,7 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="" class="dropdown-toggle l_branco" data-toggle="dropdown">Log In <span class="caret"></span></a>
+                        <a href="" class="dropdown-toggle l_verde" data-toggle="dropdown">Log In <span class="caret"></span></a>
                         <ul class="dropdown-menu dropdown-lr animated slideInRight" role="menu">
                             <div class="col-md-12">
                                 <div class="text-center"><h5><b>Log In</b></h5></div>
