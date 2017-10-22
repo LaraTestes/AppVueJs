@@ -8,7 +8,7 @@
     <div class="container mt-2 content-center">
 
         <div class="row">
-            <div class="col-md-3 col-2 col-sm-3">
+            <div class="col-md-2 col-2 col-sm-2">
 
                 <left></left>
 

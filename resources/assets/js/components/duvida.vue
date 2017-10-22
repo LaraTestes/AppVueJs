@@ -17,8 +17,8 @@
             </md-input-container>
 
 
-            <md-card-actions>
-                <md-button class="md-raised md-primary verde">Enviar</md-button>
+            <md-card-actions class="p-1">
+                <md-button class="md-raised md-primary verde"><span>Enviar</span></md-button>
             </md-card-actions>
 
         </form>
@@ -27,5 +27,9 @@
 </template>
 
 <style>
+
+    md-button{
+        font-size:8px !important;
+    }
 
 </style>

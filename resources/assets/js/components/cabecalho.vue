@@ -13,7 +13,14 @@
             </div>
             <div id="navbar" class="collapse navbar-collapse">
 
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav col-offset-3">
+                    <form class="form-inline mt-2 mt-md-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    </form>
+                </ul>
+
+
+                    <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle l_branco" data-toggle="dropdown">Cadastro <span class="caret"></span></a>
                         <ul class="dropdown-menu dropdown-lr animated slideInLeft" role="menu">
@@ -35,7 +42,7 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-xs-6 col-xs-offset-3">
-                                                <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-info" value="Cadastre-se">
+                                                <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-info" value="Cadastrar">
                                             </div>
                                         </div>
                                     </div>
@@ -103,7 +110,7 @@
     }
     /* General sizing */
     ul.dropdown-lr {
-        width: 220px;
+        width: 230px;
     }
 
     /* mobile fix */

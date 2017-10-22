@@ -43692,7 +43692,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* Fixed navbar */\nbody {\n    padding-top: 53px;\n    background-color: #f0f0f0 !important;\n    font-size: 12px !important;\n}\n/* General sizing */\nul.dropdown-lr {\n    width: 220px;\n}\n\n/* mobile fix */\n@media (max-width: 768px) {\n.dropdown-lr h5 {\n        color: #eee;\n}\n.dropdown-lr label {\n        color: #eee;\n}\n}\nnav.init{\n    height: 35px;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* Fixed navbar */\nbody {\n    padding-top: 53px;\n    background-color: #f0f0f0 !important;\n    font-size: 12px !important;\n}\n/* General sizing */\nul.dropdown-lr {\n    width: 230px;\n}\n\n/* mobile fix */\n@media (max-width: 768px) {\n.dropdown-lr h5 {\n        color: #eee;\n}\n.dropdown-lr label {\n        color: #eee;\n}\n}\nnav.init{\n    height: 35px;\n}\n", ""]);
 
 // exports
 
@@ -44014,6 +44014,19 @@ var staticRenderFns = [
               attrs: { id: "navbar" }
             },
             [
+              _c("ul", { staticClass: "nav navbar-nav col-offset-3" }, [
+                _c("form", { staticClass: "form-inline mt-2 mt-md-0" }, [
+                  _c("input", {
+                    staticClass: "form-control mr-sm-2",
+                    attrs: {
+                      type: "text",
+                      placeholder: "Search",
+                      "aria-label": "Search"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
               _c("ul", { staticClass: "nav navbar-nav navbar-right" }, [
                 _c("li", { staticClass: "dropdown" }, [
                   _c(
@@ -44114,7 +44127,7 @@ var staticRenderFns = [
                                         name: "register-submit",
                                         id: "register-submit",
                                         tabindex: "4",
-                                        value: "Cadastre-se"
+                                        value: "Cadastrar"
                                       }
                                     })
                                   ]
@@ -44689,9 +44702,10 @@ var render = function() {
         _vm._v(" "),
         _c(
           "md-card-actions",
+          { staticClass: "p-1" },
           [
             _c("md-button", { staticClass: "md-raised md-primary verde" }, [
-              _vm._v("Enviar")
+              _c("span", [_vm._v("Enviar")])
             ])
           ],
           1
@@ -44746,7 +44760,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\nmd-button{\n    font-size:8px !important;\n}\n\n", ""]);
 
 // exports
 
