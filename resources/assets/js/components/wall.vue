@@ -1,66 +1,23 @@
 <template>
 
     <md-card class="">
+        <md-card md-with-hover>
+            <md-card-header>
+                <div class="md-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque?</div>
+                <div class="md-subhead">POO, Java</div>
+            </md-card-header>
 
-            <md-list class="custom-list md-triple-line">
+            <md-card-content>
+               Informática, DMI, UEM
+            </md-card-content>
 
-            <md-list-item>
-                <md-avatar>
-                    <img src="https://placeimg.com/40/40/people/1" alt="People">
-                </md-avatar>
+            <md-bottom-bar>
+                <md-bottom-bar-item md-icon="favorite" md-active>Gostar</md-bottom-bar-item>
+                <md-bottom-bar-item md-icon="visibility">Ver</md-bottom-bar-item>
 
-                <div class="md-list-text-container">
-                    <span>Ali Connors</span>
-                    <span>Brunch this weekend?</span>
-                    <p>I'll be in your neighborhood doing errands...</p>
-                </div>
-
-                <md-button class="md-icon-button md-list-action">
-                    <md-icon class="md-primary">star</md-icon>
-                </md-button>
-
-                <md-divider class="md-inset"></md-divider>
-            </md-list-item>
-
-                <md-list-item>
-                    <md-avatar>
-                        <img src="https://placeimg.com/40/40/people/1" alt="People">
-                    </md-avatar>
-
-                    <div class="md-list-text-container">
-                        <span>Ali Connors</span>
-                        <span>Brunch this weekend?</span>
-                        <p>I'll be in your neighborhood doing errands...</p>
-                    </div>
-
-                    <md-button class="md-icon-button md-list-action">
-                        <md-icon class="md-primary">star</md-icon>
-                    </md-button>
-
-                    <md-divider class="md-inset"></md-divider>
-                </md-list-item>
-
-                <md-list-item>
-                    <md-avatar>
-                        <img src="https://placeimg.com/40/40/people/1" alt="People">
-                    </md-avatar>
-
-                    <div class="md-list-text-container">
-                        <span>Ali Connors</span>
-                        <span>Brunch this weekend?</span>
-                        <p>I'll be in your neighborhood doing errands...</p>
-                    </div>
-
-                    <md-button class="md-icon-button md-list-action">
-                        <md-icon class="md-primary">star</md-icon>
-                    </md-button>
-
-                    <md-divider class="md-inset"></md-divider>
-                </md-list-item>
-
-
-</md-list>
-
+                <!--<md-bottom-bar-item md-icon="near_me">Enviar</md-bottom-bar-item>-->
+            </md-bottom-bar>
+        </md-card>
     </md-card>
 
 

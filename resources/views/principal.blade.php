@@ -16,7 +16,9 @@
 
             <div class="col-md-6 col-sm-6 col-7">
 
-                <wall></wall>
+                <wall class="mb-2"></wall>
+                <wall class="mb-2"></wall>
+                <wall class="mb-2"></wall>
 
             </div>
 

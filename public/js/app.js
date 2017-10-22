@@ -43554,113 +43554,35 @@ var render = function() {
     {},
     [
       _c(
-        "md-list",
-        { staticClass: "custom-list md-triple-line" },
+        "md-card",
+        { attrs: { "md-with-hover": "" } },
         [
-          _c(
-            "md-list-item",
-            [
-              _c("md-avatar", [
-                _c("img", {
-                  attrs: {
-                    src: "https://placeimg.com/40/40/people/1",
-                    alt: "People"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "md-list-text-container" }, [
-                _c("span", [_vm._v("Ali Connors")]),
-                _vm._v(" "),
-                _c("span", [_vm._v("Brunch this weekend?")]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v("I'll be in your neighborhood doing errands...")
-                ])
-              ]),
-              _vm._v(" "),
-              _c(
-                "md-button",
-                { staticClass: "md-icon-button md-list-action" },
-                [
-                  _c("md-icon", { staticClass: "md-primary" }, [_vm._v("star")])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c("md-divider", { staticClass: "md-inset" })
-            ],
-            1
-          ),
+          _c("md-card-header", [
+            _c("div", { staticClass: "md-title" }, [
+              _vm._v(
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque?"
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "md-subhead" }, [_vm._v("POO, Java")])
+          ]),
+          _vm._v(" "),
+          _c("md-card-content", [
+            _vm._v("\n           Informática, DMI, UEM\n        ")
+          ]),
           _vm._v(" "),
           _c(
-            "md-list-item",
+            "md-bottom-bar",
             [
-              _c("md-avatar", [
-                _c("img", {
-                  attrs: {
-                    src: "https://placeimg.com/40/40/people/1",
-                    alt: "People"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "md-list-text-container" }, [
-                _c("span", [_vm._v("Ali Connors")]),
-                _vm._v(" "),
-                _c("span", [_vm._v("Brunch this weekend?")]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v("I'll be in your neighborhood doing errands...")
-                ])
-              ]),
-              _vm._v(" "),
               _c(
-                "md-button",
-                { staticClass: "md-icon-button md-list-action" },
-                [
-                  _c("md-icon", { staticClass: "md-primary" }, [_vm._v("star")])
-                ],
-                1
+                "md-bottom-bar-item",
+                { attrs: { "md-icon": "favorite", "md-active": "" } },
+                [_vm._v("Gostar")]
               ),
               _vm._v(" "),
-              _c("md-divider", { staticClass: "md-inset" })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "md-list-item",
-            [
-              _c("md-avatar", [
-                _c("img", {
-                  attrs: {
-                    src: "https://placeimg.com/40/40/people/1",
-                    alt: "People"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "md-list-text-container" }, [
-                _c("span", [_vm._v("Ali Connors")]),
-                _vm._v(" "),
-                _c("span", [_vm._v("Brunch this weekend?")]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v("I'll be in your neighborhood doing errands...")
-                ])
-              ]),
-              _vm._v(" "),
-              _c(
-                "md-button",
-                { staticClass: "md-icon-button md-list-action" },
-                [
-                  _c("md-icon", { staticClass: "md-primary" }, [_vm._v("star")])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c("md-divider", { staticClass: "md-inset" })
+              _c("md-bottom-bar-item", { attrs: { "md-icon": "visibility" } }, [
+                _vm._v("Ver")
+              ])
             ],
             1
           )
