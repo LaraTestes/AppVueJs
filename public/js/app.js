@@ -43692,7 +43692,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* Fixed navbar */\nbody {\n    padding-top: 53px;\n    background-color: #f0f0f0 !important;\n    font-size: 12px !important;\n}\n/* General sizing */\nul.dropdown-lr {\n    width: 230px;\n}\n\n/* mobile fix */\n@media (max-width: 768px) {\n.dropdown-lr h5 {\n        color: #eee;\n}\n.dropdown-lr label {\n        color: #eee;\n}\n}\nnav.init{\n    height: 35px;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* Fixed navbar */\nbody {\n    padding-top: 53px;\n    background-color: #f0f0f0 !important;\n    font-size: 12px !important;\n}\n/* General sizing */\nul.dropdown-lr {\n    width: 230px;\n}\n\n/* mobile fix */\n@media (max-width: 768px) {\n.dropdown-lr h5 {\n        color: #eee;\n}\n.dropdown-lr label {\n        color: #eee;\n}\n}\nnav.init{\n    height: 35px;\n}\n", ""]);
 
 // exports
 
@@ -43959,7 +43959,50 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "nav",
+    {
+      staticClass: "navbar navbar-fixed-top white  sombra-1 init",
+      attrs: { role: "navigation" }
+    },
+    [
+      _c("div", { staticClass: "container content-center" }, [
+        _c("div", { staticClass: "navbar-header" }, [
+          _c(
+            "button",
+            {
+              staticClass: "navbar-toggle collapsed",
+              attrs: {
+                type: "button",
+                "data-toggle": "collapse",
+                "data-target": "#navbar",
+                "aria-expanded": "false",
+                "aria-controls": "navbar"
+              }
+            },
+            [
+              _c("span", { staticClass: "sr-only" }, [
+                _vm._v("Toggle navigation")
+              ]),
+              _vm._v(" "),
+              _c("md-icon", { staticClass: "verde-text" }, [_vm._v("menu")]),
+              _vm._v(" "),
+              _c("span", { staticClass: "icon-bar" })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            { staticClass: "navbar-brand l_verde", attrs: { href: "" } },
+            [_vm._v("eXplicador")]
+          )
+        ]),
+        _vm._v(" "),
+        _vm._m(0)
+      ])
+    ]
+  )
 }
 var staticRenderFns = [
   function() {
@@ -43967,332 +44010,284 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c(
-      "nav",
-      {
-        staticClass: "navbar navbar-fixed-top white  sombra-1 init",
-        attrs: { role: "navigation" }
-      },
+      "div",
+      { staticClass: "collapse navbar-collapse", attrs: { id: "navbar" } },
       [
-        _c("div", { staticClass: "container content-center" }, [
-          _c("div", { staticClass: "navbar-header" }, [
-            _c(
-              "button",
-              {
-                staticClass: "navbar-toggle collapsed",
+        _c("ul", { staticClass: "nav navbar-nav col-offset-3 white" }, [
+          _c(
+            "form",
+            {
+              staticClass: "form-inline mt-2 mt-md-0 col-xs-offset-3 col-xs-6"
+            },
+            [
+              _c("input", {
+                staticClass: "form-control mr-sm-2",
                 attrs: {
-                  type: "button",
-                  "data-toggle": "collapse",
-                  "data-target": "#navbar",
-                  "aria-expanded": "false",
-                  "aria-controls": "navbar"
+                  type: "text",
+                  placeholder: "Search",
+                  "aria-label": "Search"
                 }
+              })
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _c("ul", { staticClass: "nav navbar-nav navbar-right" }, [
+          _c("li", { staticClass: "dropdown" }, [
+            _c(
+              "a",
+              {
+                staticClass: "dropdown-toggle l_verde",
+                attrs: { href: "", "data-toggle": "dropdown" }
               },
-              [
-                _c("span", { staticClass: "sr-only" }, [
-                  _vm._v("Toggle navigation")
-                ]),
-                _vm._v(" "),
-                _c("span", { staticClass: "icon-bar" }),
-                _vm._v(" "),
-                _c("span", { staticClass: "icon-bar" }),
-                _vm._v(" "),
-                _c("span", { staticClass: "icon-bar" })
-              ]
+              [_vm._v("Cadastro "), _c("span", { staticClass: "caret" })]
             ),
             _vm._v(" "),
             _c(
-              "a",
-              { staticClass: "navbar-brand l_verde", attrs: { href: "" } },
-              [_vm._v("eXplicador")]
+              "ul",
+              {
+                staticClass: "dropdown-menu dropdown-lr animated slideInLeft",
+                attrs: { role: "menu" }
+              },
+              [
+                _c("div", { staticClass: "col-md-12" }, [
+                  _c("div", { staticClass: "text-center" }, [
+                    _c("h5", [_c("b", [_vm._v("Register")])])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "form",
+                    {
+                      attrs: {
+                        id: "ajax-register-form",
+                        method: "post",
+                        role: "form",
+                        autocomplete: "off"
+                      }
+                    },
+                    [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            name: "username",
+                            tabindex: "1",
+                            placeholder: "Username",
+                            value: ""
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "email",
+                            name: "email",
+                            id: "email",
+                            tabindex: "1",
+                            placeholder: "Email Address",
+                            value: ""
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "password",
+                            name: "password",
+                            tabindex: "2",
+                            placeholder: "Password"
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "password",
+                            name: "confirm-password",
+                            id: "confirm-password",
+                            tabindex: "2",
+                            placeholder: "Confirm Password"
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("div", { staticClass: "row" }, [
+                          _c(
+                            "div",
+                            { staticClass: "col-xs-6 col-xs-offset-3" },
+                            [
+                              _c("input", {
+                                staticClass: "form-control btn btn-info",
+                                attrs: {
+                                  type: "submit",
+                                  name: "register-submit",
+                                  id: "register-submit",
+                                  tabindex: "4",
+                                  value: "Cadastrar"
+                                }
+                              })
+                            ]
+                          )
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "hide",
+                        attrs: {
+                          type: "hidden",
+                          name: "token",
+                          value: "7c6f19960d63f53fcd05c3e0cbc434c0"
+                        }
+                      })
+                    ]
+                  )
+                ])
+              ]
             )
           ]),
           _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "collapse navbar-collapse",
-              attrs: { id: "navbar" }
-            },
-            [
-              _c("ul", { staticClass: "nav navbar-nav col-offset-3" }, [
-                _c("form", { staticClass: "form-inline mt-2 mt-md-0" }, [
-                  _c("input", {
-                    staticClass: "form-control mr-sm-2",
-                    attrs: {
-                      type: "text",
-                      placeholder: "Search",
-                      "aria-label": "Search"
-                    }
-                  })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("ul", { staticClass: "nav navbar-nav navbar-right" }, [
-                _c("li", { staticClass: "dropdown" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "dropdown-toggle l_verde",
-                      attrs: { href: "", "data-toggle": "dropdown" }
-                    },
-                    [_vm._v("Cadastro "), _c("span", { staticClass: "caret" })]
-                  ),
+          _c("li", { staticClass: "dropdown" }, [
+            _c(
+              "a",
+              {
+                staticClass: "dropdown-toggle l_verde",
+                attrs: { href: "", "data-toggle": "dropdown" }
+              },
+              [_vm._v("Log In "), _c("span", { staticClass: "caret" })]
+            ),
+            _vm._v(" "),
+            _c(
+              "ul",
+              {
+                staticClass: "dropdown-menu dropdown-lr animated slideInRight",
+                attrs: { role: "menu" }
+              },
+              [
+                _c("div", { staticClass: "col-md-12" }, [
+                  _c("div", { staticClass: "text-center" }, [
+                    _c("h5", [_c("b", [_vm._v("Log In")])])
+                  ]),
                   _vm._v(" "),
                   _c(
-                    "ul",
+                    "form",
                     {
-                      staticClass:
-                        "dropdown-menu dropdown-lr animated slideInLeft",
-                      attrs: { role: "menu" }
+                      attrs: {
+                        id: "ajax-login-form",
+                        method: "post",
+                        role: "form",
+                        autocomplete: "off"
+                      }
                     },
                     [
-                      _c("div", { staticClass: "col-md-12" }, [
-                        _c("div", { staticClass: "text-center" }, [
-                          _c("h5", [_c("b", [_vm._v("Register")])])
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "username" } }, [
+                          _vm._v("Username")
                         ]),
                         _vm._v(" "),
-                        _c(
-                          "form",
-                          {
-                            attrs: {
-                              id: "ajax-register-form",
-                              method: "post",
-                              role: "form",
-                              autocomplete: "off"
-                            }
-                          },
-                          [
-                            _c("div", { staticClass: "form-group" }, [
-                              _c("input", {
-                                staticClass: "form-control",
-                                attrs: {
-                                  type: "text",
-                                  name: "username",
-                                  tabindex: "1",
-                                  placeholder: "Username",
-                                  value: ""
-                                }
-                              })
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "form-group" }, [
-                              _c("input", {
-                                staticClass: "form-control",
-                                attrs: {
-                                  type: "email",
-                                  name: "email",
-                                  id: "email",
-                                  tabindex: "1",
-                                  placeholder: "Email Address",
-                                  value: ""
-                                }
-                              })
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "form-group" }, [
-                              _c("input", {
-                                staticClass: "form-control",
-                                attrs: {
-                                  type: "password",
-                                  name: "password",
-                                  tabindex: "2",
-                                  placeholder: "Password"
-                                }
-                              })
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "form-group" }, [
-                              _c("input", {
-                                staticClass: "form-control",
-                                attrs: {
-                                  type: "password",
-                                  name: "confirm-password",
-                                  id: "confirm-password",
-                                  tabindex: "2",
-                                  placeholder: "Confirm Password"
-                                }
-                              })
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "form-group" }, [
-                              _c("div", { staticClass: "row" }, [
-                                _c(
-                                  "div",
-                                  { staticClass: "col-xs-6 col-xs-offset-3" },
-                                  [
-                                    _c("input", {
-                                      staticClass: "form-control btn btn-info",
-                                      attrs: {
-                                        type: "submit",
-                                        name: "register-submit",
-                                        id: "register-submit",
-                                        tabindex: "4",
-                                        value: "Cadastrar"
-                                      }
-                                    })
-                                  ]
-                                )
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("input", {
-                              staticClass: "hide",
-                              attrs: {
-                                type: "hidden",
-                                name: "token",
-                                value: "7c6f19960d63f53fcd05c3e0cbc434c0"
-                              }
-                            })
-                          ]
-                        )
-                      ])
-                    ]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "dropdown" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "dropdown-toggle l_verde",
-                      attrs: { href: "", "data-toggle": "dropdown" }
-                    },
-                    [_vm._v("Log In "), _c("span", { staticClass: "caret" })]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "ul",
-                    {
-                      staticClass:
-                        "dropdown-menu dropdown-lr animated slideInRight",
-                      attrs: { role: "menu" }
-                    },
-                    [
-                      _c("div", { staticClass: "col-md-12" }, [
-                        _c("div", { staticClass: "text-center" }, [
-                          _c("h5", [_c("b", [_vm._v("Log In")])])
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            name: "username",
+                            id: "username",
+                            tabindex: "1",
+                            placeholder: "Username",
+                            value: "",
+                            autocomplete: "off"
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "password" } }, [
+                          _vm._v("Password")
                         ]),
                         _vm._v(" "),
-                        _c(
-                          "form",
-                          {
-                            attrs: {
-                              id: "ajax-login-form",
-                              method: "post",
-                              role: "form",
-                              autocomplete: "off"
-                            }
-                          },
-                          [
-                            _c("div", { staticClass: "form-group" }, [
-                              _c("label", { attrs: { for: "username" } }, [
-                                _vm._v("Username")
-                              ]),
-                              _vm._v(" "),
-                              _c("input", {
-                                staticClass: "form-control",
-                                attrs: {
-                                  type: "text",
-                                  name: "username",
-                                  id: "username",
-                                  tabindex: "1",
-                                  placeholder: "Username",
-                                  value: "",
-                                  autocomplete: "off"
-                                }
-                              })
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "form-group" }, [
-                              _c("label", { attrs: { for: "password" } }, [
-                                _vm._v("Password")
-                              ]),
-                              _vm._v(" "),
-                              _c("input", {
-                                staticClass: "form-control",
-                                attrs: {
-                                  type: "password",
-                                  name: "password",
-                                  id: "password",
-                                  tabindex: "2",
-                                  placeholder: "Password",
-                                  autocomplete: "off"
-                                }
-                              })
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "form-group" }, [
-                              _c("div", { staticClass: "row" }, [
-                                _c("div", { staticClass: "col-xs-7" }, [
-                                  _c("input", {
-                                    attrs: {
-                                      type: "checkbox",
-                                      tabindex: "3",
-                                      name: "remember",
-                                      id: "remember"
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("label", { attrs: { for: "remember" } }, [
-                                    _vm._v(" Lembra-me")
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  { staticClass: "col-xs-5 pull-right" },
-                                  [
-                                    _c("input", {
-                                      staticClass:
-                                        "form-control btn btn-success",
-                                      attrs: {
-                                        type: "submit",
-                                        name: "login-submit",
-                                        id: "login-submit",
-                                        tabindex: "4",
-                                        value: "Log In"
-                                      }
-                                    })
-                                  ]
-                                )
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "form-group" }, [
-                              _c("div", { staticClass: "row" }, [
-                                _c("div", { staticClass: "col-lg-12" }, [
-                                  _c("div", { staticClass: "text-center" }, [
-                                    _c(
-                                      "a",
-                                      {
-                                        staticClass: "forgot-password",
-                                        attrs: { href: "", tabindex: "5" }
-                                      },
-                                      [_vm._v("Esqueceu a senha?")]
-                                    )
-                                  ])
-                                ])
-                              ])
-                            ]),
-                            _vm._v(" "),
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "password",
+                            name: "password",
+                            id: "password",
+                            tabindex: "2",
+                            placeholder: "Password",
+                            autocomplete: "off"
+                          }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("div", { staticClass: "row" }, [
+                          _c("div", { staticClass: "col-xs-7" }, [
                             _c("input", {
-                              staticClass: "hide",
                               attrs: {
-                                type: "hidden",
-                                name: "token",
-                                id: "token",
-                                value: "a465a2791ae0bae853cf4bf485dbe1b6"
+                                type: "checkbox",
+                                tabindex: "3",
+                                name: "remember",
+                                id: "remember"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("label", { attrs: { for: "remember" } }, [
+                              _vm._v(" Lembra-me")
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-xs-5 pull-right" }, [
+                            _c("input", {
+                              staticClass: "form-control btn btn-success",
+                              attrs: {
+                                type: "submit",
+                                name: "login-submit",
+                                id: "login-submit",
+                                tabindex: "4",
+                                value: "Log In"
                               }
                             })
-                          ]
-                        )
-                      ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("div", { staticClass: "row" }, [
+                          _c("div", { staticClass: "col-lg-12" }, [
+                            _c("div", { staticClass: "text-center" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "forgot-password",
+                                  attrs: { href: "", tabindex: "5" }
+                                },
+                                [_vm._v("Esqueceu a senha?")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "hide",
+                        attrs: {
+                          type: "hidden",
+                          name: "token",
+                          id: "token",
+                          value: "a465a2791ae0bae853cf4bf485dbe1b6"
+                        }
+                      })
                     ]
                   )
                 ])
-              ])
-            ]
-          )
+              ]
+            )
+          ])
         ])
       ]
     )

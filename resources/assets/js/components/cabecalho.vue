@@ -5,20 +5,18 @@
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <md-icon class="verde-text">menu</md-icon>
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand l_verde" href="">eXplicador</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
 
-                <ul class="nav navbar-nav col-offset-3">
-                    <form class="form-inline mt-2 mt-md-0">
+                <ul class="nav navbar-nav col-offset-3 white">
+                    <form class="form-inline mt-2 mt-md-0 col-xs-offset-3 col-xs-6">
                         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                     </form>
                 </ul>
-
 
                     <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
