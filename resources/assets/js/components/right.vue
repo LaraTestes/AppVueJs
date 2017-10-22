@@ -1,14 +1,8 @@
 <template>
 
-    <!--<md-card class="p-2">-->
-        <!--<p>Melhores explicadores</p>-->
-    <!--</md-card>-->
-
-
-
     <md-card class="">
 
-        <p class="p-2 verde-text content-center">Melhores explicadores</p>
+        <h5 class="p-2 verde-text content-center">Melhores explicadores</h5>
 
 
         <md-divider></md-divider>

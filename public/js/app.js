@@ -44382,7 +44382,7 @@ exports = module.exports = __webpack_require__(11)(undefined);
 
 
 // module
-exports.push([module.i, "\n.b_rad{\n    border-radius: 5px !important;\n}\nmd-button{\n    font-size: 11px !important;\n}\n", ""]);
+exports.push([module.i, "\n.b_rad{\n    border-radius: 5px !important;\n}\nmd-button{\n    font-size: 11px !important;\n}\nh5.bg{\n    background-color: #f4f4f0;\n}\n", ""]);
 
 // exports
 
@@ -44491,7 +44491,7 @@ var render = function() {
     "md-card",
     {},
     [
-      _c("p", { staticClass: "p-2 verde-text content-center" }, [
+      _c("h5", { staticClass: "p-2 verde-text content-center" }, [
         _vm._v("Melhores explicadores")
       ]),
       _vm._v(" "),
@@ -44602,6 +44602,10 @@ if (false) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(76)
+}
 var normalizeComponent = __webpack_require__(1)
 /* script */
 var __vue_script__ = null
@@ -44610,7 +44614,7 @@ var __vue_template__ = __webpack_require__(75)
 /* template functional */
   var __vue_template_functional__ = false
 /* styles */
-var __vue_styles__ = null
+var __vue_styles__ = injectStyle
 /* scopeId */
 var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
@@ -44654,10 +44658,6 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("md-card", { staticClass: " p-3" }, [
-    _c("h5", { staticClass: "verde-text" }, [
-      _vm._v("Publique aqui a tua dúvida")
-    ]),
-    _vm._v(" "),
     _c(
       "form",
       { attrs: { action: "" } },
@@ -44671,7 +44671,7 @@ var render = function() {
         _c(
           "md-input-container",
           [
-            _c("label", [_vm._v("Pode adicionar imagem também")]),
+            _c("label", [_vm._v("Clique aqui para adicionar imagem também")]),
             _vm._v(" "),
             _c("md-file", {
               attrs: { accept: "image/*" },
@@ -44688,9 +44688,12 @@ var render = function() {
         ),
         _vm._v(" "),
         _c(
-          "md-button",
-          { staticClass: "md-fab md-primary md-mini" },
-          [_c("md-icon", [_vm._v("near_me")])],
+          "md-card-actions",
+          [
+            _c("md-button", { staticClass: "md-raised md-primary verde" }, [
+              _vm._v("Enviar")
+            ])
+          ],
           1
         )
       ],
@@ -44707,6 +44710,46 @@ if (false) {
     require("vue-hot-reload-api")      .rerender("data-v-da5560ba", module.exports)
   }
 }
+
+/***/ }),
+/* 76 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(77);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(55)("6989d29e", content, false);
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-da5560ba\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./duvida.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-da5560ba\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./duvida.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 77 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(11)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+
+// exports
+
 
 /***/ })
 /******/ ]);
