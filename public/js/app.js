@@ -48754,18 +48754,90 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "div",
+    { staticClass: "sombra-1 p-2 white" },
+    [
+      _c(
+        "md-card",
+        [
+          _c(
+            "md-card-header",
+            [
+              _c("md-card-header-text", [
+                _c("div", { staticClass: "md-title" }, [
+                  _vm._v("Cláudio Sumburane")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "md-subhead" }, [
+                  _vm._v("Universidade Eduardo Mondlane, DMI")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("md-avatar", { staticClass: "md-large" }, [
+                _c("img", {
+                  attrs: {
+                    src: "http://vuematerial.io/assets/avatar-2.jpg",
+                    alt: "People"
+                  }
+                })
+              ])
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "md-tabs",
+        { staticClass: "md-transparent" },
+        [
+          _c(
+            "md-tab",
+            { attrs: { id: "disciplinas", "md-label": "Disciplinas" } },
+            [
+              _c("p", [
+                _vm._v(
+                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolorum quas amet cum vitae, omnis! Illum quas voluptatem, expedita iste, dicta ipsum ea veniam dolore in, quod saepe reiciendis nihil."
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "md-tab",
+            { attrs: { id: "seguindo", "md-label": "seguidores" } },
+            [
+              _c("p", [
+                _vm._v(
+                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolorum quas amet cum vitae, omnis! Illum quas voluptatem, expedita iste, dicta ipsum ea veniam dolore in, quod saepe reiciendis nihil."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolorum quas amet cum vitae, omnis! Illum quas voluptatem, expedita iste, dicta ipsum ea veniam dolore in, quod saepe reiciendis nihil."
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c("md-tab", { attrs: { id: "duvidas", "md-label": "Dúvidas" } }, [
+            _c("p", [
+              _vm._v(
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolorum quas."
+              )
+            ])
+          ])
+        ],
+        1
+      )
+    ],
+    1
+  )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "sombra-1 p-2 white" }, [
-      _c("h4", [_vm._v("Perfil do Explicador")])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
