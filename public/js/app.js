@@ -48703,15 +48703,19 @@ exports.push([module.i, "\n.md-list.md-triple-line .md-list-item .md-list-item-c
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(107)
+}
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = null
+var __vue_script__ = __webpack_require__(106)
 /* template */
 var __vue_template__ = __webpack_require__(105)
 /* template functional */
   var __vue_template_functional__ = false
 /* styles */
-var __vue_styles__ = null
+var __vue_styles__ = injectStyle
 /* scopeId */
 var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
@@ -48756,32 +48760,87 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "sombra-1 p-2 white" },
     [
       _c(
-        "md-card",
+        "div",
+        { staticClass: "sombra-1 p-2 white mb-4" },
         [
           _c(
-            "md-card-header",
+            "md-card",
             [
-              _c("md-card-header-text", [
-                _c("div", { staticClass: "md-title" }, [
-                  _vm._v("Cláudio Sumburane")
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "md-subhead" }, [
-                  _vm._v("Universidade Eduardo Mondlane, DMI")
-                ])
-              ]),
+              _c(
+                "md-card-header",
+                [
+                  _c("md-card-header-text", [
+                    _c("div", { staticClass: "md-title" }, [
+                      _vm._v("Cláudio Sumburane")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "md-subhead" }, [
+                      _vm._v("Universidade Eduardo Mondlane, DMI")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("md-avatar", { staticClass: "md-large" }, [
+                    _c("img", {
+                      attrs: {
+                        src: "http://vuematerial.io/assets/avatar-2.jpg",
+                        alt: "People"
+                      }
+                    })
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "md-tabs",
+            { staticClass: "md-transparent" },
+            [
+              _c(
+                "md-tab",
+                { attrs: { id: "disciplinas", "md-label": "Disciplinas" } },
+                [
+                  _c("p", [
+                    _vm._v(
+                      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolorum quas amet cum vitae, omnis! Illum quas voluptatem, expedita iste, dicta ipsum ea veniam dolore in, quod saepe reiciendis nihil."
+                    )
+                  ])
+                ]
+              ),
               _vm._v(" "),
-              _c("md-avatar", { staticClass: "md-large" }, [
-                _c("img", {
-                  attrs: {
-                    src: "http://vuematerial.io/assets/avatar-2.jpg",
-                    alt: "People"
-                  }
-                })
-              ])
+              _c(
+                "md-tab",
+                { attrs: { id: "seguindo", "md-label": "seguidores" } },
+                [
+                  _c("p", [
+                    _vm._v(
+                      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolorum quas amet cum vitae, omnis! Illum quas voluptatem, expedita iste, dicta ipsum ea veniam dolore in, quod saepe reiciendis nihil."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolorum quas amet cum vitae, omnis! Illum quas voluptatem, expedita iste, dicta ipsum ea veniam dolore in, quod saepe reiciendis nihil."
+                    )
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "md-tab",
+                { attrs: { id: "duvidas", "md-label": "Dúvidas" } },
+                [
+                  _c("p", [
+                    _vm._v(
+                      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolorum quas."
+                    )
+                  ])
+                ]
+              )
             ],
             1
           )
@@ -48789,47 +48848,69 @@ var render = function() {
         1
       ),
       _vm._v(" "),
+      _c("h5", { staticClass: "p-2 sombra-1 verde-text content-center bg" }, [
+        _vm._v("Atualização de Dados")
+      ]),
+      _vm._v(" "),
       _c(
-        "md-tabs",
-        { staticClass: "md-transparent" },
+        "md-card",
+        { staticClass: "mb-3" },
         [
           _c(
-            "md-tab",
-            { attrs: { id: "disciplinas", "md-label": "Disciplinas" } },
+            "md-stepper",
+            { staticClass: "white" },
             [
-              _c("p", [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolorum quas amet cum vitae, omnis! Illum quas voluptatem, expedita iste, dicta ipsum ea veniam dolore in, quod saepe reiciendis nihil."
-                )
-              ])
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "md-tab",
-            { attrs: { id: "seguindo", "md-label": "seguidores" } },
-            [
-              _c("p", [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolorum quas amet cum vitae, omnis! Illum quas voluptatem, expedita iste, dicta ipsum ea veniam dolore in, quod saepe reiciendis nihil."
-                )
+              _c(
+                "md-step",
+                {
+                  attrs: {
+                    "md-editable": true,
+                    "md-label": "Email",
+                    "md-error": !_vm.mailValid,
+                    "md-continue": _vm.mailValid,
+                    "md-message": _vm.invalidMessage
+                  }
+                },
+                [
+                  _c("p", [_vm._v("Please enter your emailaddress")]),
+                  _vm._v(" "),
+                  _c(
+                    "md-input-container",
+                    { class: { "md-input-invalid": !_vm.mailValid } },
+                    [
+                      _c("md-input", {
+                        attrs: { type: "email", required: "" },
+                        model: {
+                          value: _vm.mail,
+                          callback: function($$v) {
+                            _vm.mail = $$v
+                          },
+                          expression: "mail"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("label", [_vm._v("Email")])
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("md-step", { attrs: { "md-disabled": !_vm.mailValid } }, [
+                _c("p", [_vm._v("Yay  is a valid emailadress")])
               ]),
               _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolorum quas amet cum vitae, omnis! Illum quas voluptatem, expedita iste, dicta ipsum ea veniam dolore in, quod saepe reiciendis nihil."
-                )
+              _c("md-step", { attrs: { "md-disabled": !_vm.mailValid } }, [
+                _c("p", [
+                  _vm._v(
+                    "This seems something important I need to fix just right before the last step."
+                  )
+                ])
               ])
-            ]
-          ),
-          _vm._v(" "),
-          _c("md-tab", { attrs: { id: "duvidas", "md-label": "Dúvidas" } }, [
-            _c("p", [
-              _vm._v(
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolorum quas."
-              )
-            ])
-          ])
+            ],
+            1
+          )
         ],
         1
       )
@@ -48846,6 +48927,137 @@ if (false) {
     require("vue-hot-reload-api")      .rerender("data-v-5c2dc171", module.exports)
   }
 }
+
+/***/ }),
+/* 106 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            mail: '',
+            mailValid: false,
+            invalidMessage: 'Invalid mail'
+        };
+    },
+    watch: {
+        mail: function mail() {
+            var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+            this.mailValid = emailRegex.test(this.mail);
+            if (this.mailValid) {
+                this.invalidMessage = 'Valid mail';
+            } else {
+                this.invalidMessage = 'Invalid mail';
+            }
+        }
+    }
+});
+
+/***/ }),
+/* 107 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(108);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(3)("35e8f2eb", content, false);
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5c2dc171\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./index.vue", function() {
+     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5c2dc171\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./index.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 108 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "\nmd-step{\n    background-color: #ffffff !important;\n}\n", ""]);
+
+// exports
+
 
 /***/ })
 /******/ ]);
