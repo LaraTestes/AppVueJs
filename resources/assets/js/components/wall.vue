@@ -50,6 +50,6 @@
     }
 
     h5.bg{
-        background-color: #f4f4f0;
+        background-color: #F2F2F2;
     }
 </style>

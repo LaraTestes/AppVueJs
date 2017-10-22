@@ -12073,7 +12073,7 @@ var explicadores = __webpack_require__(80);
 //================== Conficurando a Rota =================//
 //========================================================//
 
-var routes = [{ path: '/duvidas', component: duvidas }, { path: '/artigos', component: artigos }, { path: '/messagens', component: messagens }, { path: '/explicadores', component: explicadores }];
+var routes = [{ path: '/duvidas', component: wall }, { path: '/artigos', component: artigos }, { path: '/messagens', component: messagens }, { path: '/explicadores', component: explicadores }];
 
 var router = new __WEBPACK_IMPORTED_MODULE_3_vue_router__["a" /* default */]({
 
@@ -46394,7 +46394,7 @@ exports = module.exports = __webpack_require__(2)(undefined);
 
 
 // module
-exports.push([module.i, "\n.b_rad{\n    border-radius: 5px !important;\n}\nmd-button{\n    font-size: 11px !important;\n}\nh5.bg{\n    background-color: #f4f4f0;\n}\n", ""]);
+exports.push([module.i, "\n.b_rad{\n    border-radius: 5px !important;\n}\nmd-button{\n    font-size: 11px !important;\n}\nh5.bg{\n    background-color: #F2F2F2;\n}\n", ""]);
 
 // exports
 
@@ -47722,6 +47722,10 @@ if (false) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(99)
+}
 var normalizeComponent = __webpack_require__(1)
 /* script */
 var __vue_script__ = null
@@ -47730,7 +47734,7 @@ var __vue_template__ = __webpack_require__(81)
 /* template functional */
   var __vue_template_functional__ = false
 /* styles */
-var __vue_styles__ = null
+var __vue_styles__ = injectStyle
 /* scopeId */
 var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
@@ -47773,18 +47777,164 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "div",
+    [
+      _c("h5", { staticClass: "p-2 verde-text content-center bg" }, [
+        _vm._v("Explicadores")
+      ]),
+      _vm._v(" "),
+      _c(
+        "md-card",
+        [
+          _c("md-divider"),
+          _vm._v(" "),
+          _c(
+            "md-list",
+            { staticClass: "custom-list md-triple-line" },
+            [
+              _c(
+                "md-list-item",
+                { staticClass: "p-1" },
+                [
+                  _c("md-avatar", [
+                    _c("img", {
+                      attrs: {
+                        src: "https://placeimg.com/40/40/people/1",
+                        alt: "People"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "md-list-text-container" }, [
+                    _c("span", [_vm._v("Claud Sumbus")]),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("UEM,F.Ciencias")]),
+                    _vm._v(" "),
+                    _c("p", [_vm._v("FP, PW, DAW, PW")])
+                  ]),
+                  _vm._v(" "),
+                  _c("md-divider", { staticClass: "md-inset" })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "md-list-item",
+                { staticClass: "p-1" },
+                [
+                  _c("md-avatar", [
+                    _c("img", {
+                      attrs: {
+                        src: "https://placeimg.com/40/40/people/1",
+                        alt: "People"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "md-list-text-container" }, [
+                    _c("span", [_vm._v("Claud Sumbus")]),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("UEM,F.Ciencias")]),
+                    _vm._v(" "),
+                    _c("p", [_vm._v("FP, PW, DAW, PW")])
+                  ]),
+                  _vm._v(" "),
+                  _c("md-divider", { staticClass: "md-inset" })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "md-list-item",
+                { staticClass: "p-1" },
+                [
+                  _c("md-avatar", [
+                    _c("img", {
+                      attrs: {
+                        src: "https://placeimg.com/40/40/people/1",
+                        alt: "People"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "md-list-text-container" }, [
+                    _c("span", [_vm._v("Claud Sumbus")]),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("UEM,F.Ciencias")]),
+                    _vm._v(" "),
+                    _c("p", [_vm._v("FP, PW, DAW, PW")])
+                  ]),
+                  _vm._v(" "),
+                  _c("md-divider", { staticClass: "md-inset" })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "md-list-item",
+                [
+                  _c("md-avatar", [
+                    _c("img", {
+                      attrs: {
+                        src: "https://placeimg.com/40/40/people/1",
+                        alt: "People"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "md-list-text-container" }, [
+                    _c("span", [_vm._v("Ali Connors")]),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Brunch this weekend?")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v("I'll be in your neighborhood doing errands...")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("md-divider", { staticClass: "md-inset" })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "md-list-item",
+                [
+                  _c("md-avatar", [
+                    _c("img", {
+                      attrs: {
+                        src: "https://placeimg.com/40/40/people/1",
+                        alt: "People"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "md-list-text-container" }, [
+                    _c("span", [_vm._v("Ali Connors")]),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("Brunch this weekend?")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v("I'll be in your neighborhood doing errands...")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("md-divider", { staticClass: "md-inset" })
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "sombra-1 p-2 white" }, [
-      _c("h4", [_vm._v("Explicadores")])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
@@ -48136,6 +48286,46 @@ if (false) {
     require("vue-hot-reload-api")      .rerender("data-v-c6e09672", module.exports)
   }
 }
+
+/***/ }),
+/* 99 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(100);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(3)("b976cbca", content, false);
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5b12d906\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./explicadores.vue", function() {
+     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-5b12d906\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./explicadores.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 100 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(2)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "\n.md-list.md-triple-line .md-list-item .md-list-item-container {\n    min-height: 60px !important;\n}\nh5.bg{\n    background-color: #f4f4f4;\n}\n\n", ""]);
+
+// exports
+
 
 /***/ })
 /******/ ]);

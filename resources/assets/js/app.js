@@ -72,7 +72,7 @@ let explicadores = require('./components/opcoes-menu/explicadores.vue');
 //========================================================//
 
 const routes = [
-    { path: '/duvidas', component: duvidas },
+    { path: '/duvidas', component: wall },
     { path: '/artigos', component: artigos },
     { path: '/messagens', component: messagens },
     { path: '/explicadores', component: explicadores }
