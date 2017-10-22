@@ -14,9 +14,13 @@
 
             </div>
 
-            <div class="col-md-7 col-sm-7 col-7">
+            <div class="col-md-7 col-sm-7 col-7" id="container">
 
-                <wall></wall>
+                {{--<wall></wall>--}}
+
+                {{--<content></content>--}}
+
+                <router-view></router-view>
 
             </div>
 
@@ -27,6 +31,8 @@
             </div>
 
         </div>
+
+
     </div>
 
 

@@ -1,36 +1,35 @@
 <template>
 
     <!--<md-card>-->
-    <div class="b_rad">
+    <div class="b_rad is-active">
 
         <p class="bg p-2">
-            <a class="l_verde" href="#explicador">
+            <router-link to="/explicadores" class="l_verde">
                 <md-icon>perm_identity</md-icon>
-                <span>eXplicador</span>
-            </a>
+                explicador
+            </router-link>
         </p>
 
         <p class="bg p-2">
-            <a class="l_verde" href="#duvidas">
+            <router-link to="/duvidas" class="l_verde">
                 <md-icon>question_answer</md-icon>
-                <span>Dúvidas</span>
-            </a>
+                duvidas
+            </router-link>
         </p>
 
         <p class="bg p-2">
-            <a class="l_verde" href="#mensagens">
-                <md-icon>question_answer</md-icon>
-                <span>Mensagens</span>
-            </a>
-        </p>
-
-        <p class="bg p-2">
-            <a class="l_verde" href="#artigos">
+            <router-link to="/messagens" class="l_verde">
                 <md-icon>book</md-icon>
-                <span>Artigos</span>
-            </a>
+                mensagens
+            </router-link>
         </p>
 
+        <p class="bg p-2">
+            <router-link to="/artigos" class="l_verde">
+                <md-icon>book</md-icon>
+                artigos
+            </router-link>
+        </p>
 
     </div>
 

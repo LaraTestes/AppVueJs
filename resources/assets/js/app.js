@@ -51,6 +51,8 @@ let right = require('./components/right.vue');
 
 let duvida = require('./components/form-duvida.vue');
 
+let content = require('./components/content.vue');
+
 
 //======================================================//
 //=========== Components no dir. opcoes-menu ===========//
@@ -81,17 +83,18 @@ const routes = [
 const router = new VueRouter({
 
     // Elimina o # antes da rota
-    mode: 'history',
+    // mode: 'history',
 
     routes // short for `routes: routes`
 
 })
 
 
-
 const app = new Vue({
     el: '#app',
 
+    router,
+
     components:{cabecalho, wall, left, right, duvida}
 
-});
+}).$mount('#container')
