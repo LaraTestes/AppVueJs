@@ -47784,152 +47784,159 @@ var render = function() {
         _vm._v("Explicadores")
       ]),
       _vm._v(" "),
-      _c(
-        "md-card",
-        [
-          _c("md-divider"),
-          _vm._v(" "),
-          _c(
-            "md-list",
-            { staticClass: "custom-list md-triple-line" },
-            [
-              _c(
-                "md-list-item",
-                { staticClass: "p-1" },
-                [
-                  _c("md-avatar", [
-                    _c("img", {
-                      attrs: {
-                        src: "https://placeimg.com/40/40/people/1",
-                        alt: "People"
-                      }
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "md-list-text-container" }, [
-                    _c("span", [_vm._v("Claud Sumbus")]),
+      _c("md-card", [
+        _c(
+          "div",
+          { staticClass: "phone-viewport" },
+          [
+            _c(
+              "md-list",
+              { staticClass: "custom-list md-triple-line md-dense" },
+              [
+                _c(
+                  "md-list-item",
+                  [
+                    _c("md-avatar", [
+                      _c("img", {
+                        attrs: {
+                          src: "https://placeimg.com/40/40/people/1",
+                          alt: "People"
+                        }
+                      })
+                    ]),
                     _vm._v(" "),
-                    _c("span", [_vm._v("UEM,F.Ciencias")]),
+                    _c("div", { staticClass: "md-list-text-container" }, [
+                      _c("span", [_vm._v("Ali Connors")]),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Brunch this weekend?")]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v("I'll be in your neighborhood doing errands...")
+                      ])
+                    ]),
                     _vm._v(" "),
-                    _c("p", [_vm._v("FP, PW, DAW, PW")])
-                  ]),
-                  _vm._v(" "),
-                  _c("md-divider", { staticClass: "md-inset" })
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "md-list-item",
-                { staticClass: "p-1" },
-                [
-                  _c("md-avatar", [
-                    _c("img", {
-                      attrs: {
-                        src: "https://placeimg.com/40/40/people/1",
-                        alt: "People"
-                      }
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "md-list-text-container" }, [
-                    _c("span", [_vm._v("Claud Sumbus")]),
+                    _c(
+                      "md-button",
+                      { staticClass: "md-icon-button md-list-action" },
+                      [
+                        _c("md-icon", { staticClass: "md-primary" }, [
+                          _vm._v("star")
+                        ])
+                      ],
+                      1
+                    ),
                     _vm._v(" "),
-                    _c("span", [_vm._v("UEM,F.Ciencias")]),
+                    _c("md-divider", { staticClass: "md-inset" })
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "md-list-item",
+                  [
+                    _c("md-avatar", [
+                      _c("img", {
+                        attrs: {
+                          src: "https://placeimg.com/40/40/people/6",
+                          alt: "People"
+                        }
+                      })
+                    ]),
                     _vm._v(" "),
-                    _c("p", [_vm._v("FP, PW, DAW, PW")])
-                  ]),
-                  _vm._v(" "),
-                  _c("md-divider", { staticClass: "md-inset" })
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "md-list-item",
-                { staticClass: "p-1" },
-                [
-                  _c("md-avatar", [
-                    _c("img", {
-                      attrs: {
-                        src: "https://placeimg.com/40/40/people/1",
-                        alt: "People"
-                      }
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "md-list-text-container" }, [
-                    _c("span", [_vm._v("Claud Sumbus")]),
+                    _c("div", { staticClass: "md-list-text-container" }, [
+                      _c("span", [_vm._v("me, Scott, Jennifer")]),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Summer BBQ")]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v("Wish I could come, but I'm out of town ...")
+                      ])
+                    ]),
                     _vm._v(" "),
-                    _c("span", [_vm._v("UEM,F.Ciencias")]),
+                    _c(
+                      "md-button",
+                      { staticClass: "md-icon-button md-list-action" },
+                      [_c("md-icon", [_vm._v("star_border")])],
+                      1
+                    ),
                     _vm._v(" "),
-                    _c("p", [_vm._v("FP, PW, DAW, PW")])
-                  ]),
-                  _vm._v(" "),
-                  _c("md-divider", { staticClass: "md-inset" })
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "md-list-item",
-                [
-                  _c("md-avatar", [
-                    _c("img", {
-                      attrs: {
-                        src: "https://placeimg.com/40/40/people/1",
-                        alt: "People"
-                      }
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "md-list-text-container" }, [
-                    _c("span", [_vm._v("Ali Connors")]),
+                    _c("md-divider", { staticClass: "md-inset" })
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "md-list-item",
+                  [
+                    _c("md-avatar", [
+                      _c("img", {
+                        attrs: {
+                          src: "https://placeimg.com/40/40/people/5",
+                          alt: "People"
+                        }
+                      })
+                    ]),
                     _vm._v(" "),
-                    _c("span", [_vm._v("Brunch this weekend?")]),
+                    _c("div", { staticClass: "md-list-text-container" }, [
+                      _c("span", [_vm._v("Sandra Adams")]),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Oui oui")]),
+                      _vm._v(" "),
+                      _c("p", [_vm._v("Do you have Paris recommendations ...")])
+                    ]),
                     _vm._v(" "),
-                    _c("p", [
-                      _vm._v("I'll be in your neighborhood doing errands...")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("md-divider", { staticClass: "md-inset" })
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "md-list-item",
-                [
-                  _c("md-avatar", [
-                    _c("img", {
-                      attrs: {
-                        src: "https://placeimg.com/40/40/people/1",
-                        alt: "People"
-                      }
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "md-list-text-container" }, [
-                    _c("span", [_vm._v("Ali Connors")]),
+                    _c(
+                      "md-button",
+                      { staticClass: "md-icon-button md-list-action" },
+                      [_c("md-icon", [_vm._v("star_border")])],
+                      1
+                    ),
                     _vm._v(" "),
-                    _c("span", [_vm._v("Brunch this weekend?")]),
+                    _c("md-divider", { staticClass: "md-inset" })
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "md-list-item",
+                  [
+                    _c("md-avatar", [
+                      _c("img", {
+                        attrs: {
+                          src: "https://placeimg.com/40/40/people/8",
+                          alt: "People"
+                        }
+                      })
+                    ]),
                     _vm._v(" "),
-                    _c("p", [
-                      _vm._v("I'll be in your neighborhood doing errands...")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("md-divider", { staticClass: "md-inset" })
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      )
+                    _c("div", { staticClass: "md-list-text-container" }, [
+                      _c("span", [_vm._v("Trevor Hansen")]),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Order confirmation")]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v("Thank you for your recent order from ...")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "md-button",
+                      { staticClass: "md-icon-button md-list-action" },
+                      [_c("md-icon", [_vm._v("star_border")])],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("md-divider", { staticClass: "md-inset" })
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ],
+          1
+        )
+      ])
     ],
     1
   )

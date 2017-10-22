@@ -5,86 +5,91 @@
         <h5 class="p-2 verde-text content-center bg">Explicadores</h5>
 
 
+        <!--===========================================-->
         <md-card>
-        <md-divider></md-divider>
 
+            <div class="phone-viewport">
+                <md-list class="custom-list md-triple-line md-dense">
+                    <md-list-item>
+                        <md-avatar>
+                            <img src="https://placeimg.com/40/40/people/1" alt="People">
+                        </md-avatar>
 
-        <md-list class="custom-list md-triple-line">
+                        <div class="md-list-text-container">
+                            <span>Ali Connors</span>
+                            <span>Brunch this weekend?</span>
+                            <p>I'll be in your neighborhood doing errands...</p>
+                        </div>
 
-            <md-list-item class="p-1">
-                <md-avatar>
-                    <img src="https://placeimg.com/40/40/people/1" alt="People">
-                </md-avatar>
+                        <md-button class="md-icon-button md-list-action">
+                            <md-icon class="md-primary">star</md-icon>
+                        </md-button>
 
-                <div class="md-list-text-container">
-                    <span>Claud Sumbus</span>
-                    <span>UEM,F.Ciencias</span>
-                    <p>FP, PW, DAW, PW</p>
-                </div>
+                        <md-divider class="md-inset"></md-divider>
+                    </md-list-item>
 
-                <md-divider class="md-inset"></md-divider>
-            </md-list-item>
+                    <md-list-item>
+                        <md-avatar>
+                            <img src="https://placeimg.com/40/40/people/6" alt="People">
+                        </md-avatar>
 
-            <md-list-item class="p-1">
-                <md-avatar>
-                    <img src="https://placeimg.com/40/40/people/1" alt="People">
-                </md-avatar>
+                        <div class="md-list-text-container">
+                            <span>me, Scott, Jennifer</span>
+                            <span>Summer BBQ</span>
+                            <p>Wish I could come, but I'm out of town ...</p>
+                        </div>
 
-                <div class="md-list-text-container">
-                    <span>Claud Sumbus</span>
-                    <span>UEM,F.Ciencias</span>
-                    <p>FP, PW, DAW, PW</p>
-                </div>
+                        <md-button class="md-icon-button md-list-action">
+                            <md-icon>star_border</md-icon>
+                        </md-button>
 
-                <md-divider class="md-inset"></md-divider>
-            </md-list-item>
+                        <md-divider class="md-inset"></md-divider>
+                    </md-list-item>
 
-            <md-list-item class="p-1">
-                <md-avatar>
-                    <img src="https://placeimg.com/40/40/people/1" alt="People">
-                </md-avatar>
+                    <md-list-item>
+                        <md-avatar>
+                            <img src="https://placeimg.com/40/40/people/5" alt="People">
+                        </md-avatar>
 
-                <div class="md-list-text-container">
-                    <span>Claud Sumbus</span>
-                    <span>UEM,F.Ciencias</span>
-                    <p>FP, PW, DAW, PW</p>
-                </div>
+                        <div class="md-list-text-container">
+                            <span>Sandra Adams</span>
+                            <span>Oui oui</span>
+                            <p>Do you have Paris recommendations ...</p>
+                        </div>
 
-                <md-divider class="md-inset"></md-divider>
-            </md-list-item>
+                        <md-button class="md-icon-button md-list-action">
+                            <md-icon>star_border</md-icon>
+                        </md-button>
 
-            <md-list-item>
-                <md-avatar>
-                    <img src="https://placeimg.com/40/40/people/1" alt="People">
-                </md-avatar>
+                        <md-divider class="md-inset"></md-divider>
+                    </md-list-item>
 
-                <div class="md-list-text-container">
-                    <span>Ali Connors</span>
-                    <span>Brunch this weekend?</span>
-                    <p>I'll be in your neighborhood doing errands...</p>
-                </div>
+                    <md-list-item>
+                        <md-avatar>
+                            <img src="https://placeimg.com/40/40/people/8" alt="People">
+                        </md-avatar>
 
-                <md-divider class="md-inset"></md-divider>
-            </md-list-item>
+                        <div class="md-list-text-container">
+                            <span>Trevor Hansen</span>
+                            <span>Order confirmation</span>
+                            <p>Thank you for your recent order from ...</p>
+                        </div>
 
-            <md-list-item>
-                <md-avatar>
-                    <img src="https://placeimg.com/40/40/people/1" alt="People">
-                </md-avatar>
+                        <md-button class="md-icon-button md-list-action">
+                            <md-icon>star_border</md-icon>
+                        </md-button>
 
-                <div class="md-list-text-container">
-                    <span>Ali Connors</span>
-                    <span>Brunch this weekend?</span>
-                    <p>I'll be in your neighborhood doing errands...</p>
-                </div>
-
-                <md-divider class="md-inset"></md-divider>
-            </md-list-item>
-
-
-        </md-list>
+                        <md-divider class="md-inset"></md-divider>
+                    </md-list-item>
+                </md-list>
+            </div>
 
         </md-card>
+
+        <!--===========================================-->
+
+
+
     </div>
 
 
