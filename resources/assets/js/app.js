@@ -37,6 +37,10 @@ Vue.use(VueRouter)
 Vue.component('example', require('./components/Example.vue'));
 
 
+//======================================================//
+//=================Components no root ==================//
+//======================================================//
+
 let wall = require('./components/wall.vue');
 
 let cabecalho = require('./components/cabecalho.vue');
@@ -46,6 +50,42 @@ let left = require('./components/menu.vue');
 let right = require('./components/right.vue');
 
 let duvida = require('./components/duvida.vue');
+
+
+//======================================================//
+//=========== Components no dir. opcoes-menu ===========//
+//======================================================//
+
+let duvidas = require('./components/opcoes-menu/duvidas.vue');
+
+let artigos = require('./components/opcoes-menu/artigos.vue');
+
+let messagens = require('./components/opcoes-menu/messagens.vue');
+
+let explicadores = require('./components/opcoes-menu/explicadores.vue');
+
+
+//========================================================//
+//================== Conficurando a Rota =================//
+//========================================================//
+const router = new VueRouter()
+
+router.map({
+    '/duvidas': {
+        component: duvidas
+    },
+    '/artigos': {
+        component: artigos
+    },
+
+    'messagens' : {
+        component: messagens
+    },
+
+    'explicadores' : {
+        component: explicadores
+    }
+})
 
 
 const app = new Vue({
