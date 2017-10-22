@@ -39,10 +39,12 @@ let left = require('./components/menu.vue');
 
 let right = require('./components/right.vue');
 
+let duvida = require('./components/duvida.vue');
+
 
 const app = new Vue({
     el: '#app',
 
-    components:{cabecalho, wall, left, right}
+    components:{cabecalho, wall, left, right, duvida}
 
 });

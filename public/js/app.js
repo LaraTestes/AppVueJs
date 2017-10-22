@@ -11774,10 +11774,12 @@ var left = __webpack_require__(48);
 
 var right = __webpack_require__(70);
 
+var duvida = __webpack_require__(74);
+
 var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
   el: '#app',
 
-  components: { cabecalho: cabecalho, wall: wall, left: left, right: right }
+  components: { cabecalho: cabecalho, wall: wall, left: left, right: right, duvida: duvida }
 
 });
 
@@ -44592,6 +44594,117 @@ if (false) {
   module.hot.accept()
   if (module.hot.data) {
     require("vue-hot-reload-api")      .rerender("data-v-488dce6a", module.exports)
+  }
+}
+
+/***/ }),
+/* 74 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(1)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = __webpack_require__(75)
+/* template functional */
+  var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\duvida.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-da5560ba", Component.options)
+  } else {
+    hotAPI.reload("data-v-da5560ba", Component.options)
+' + '  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 75 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("md-card", { staticClass: " p-3" }, [
+    _c("h5", { staticClass: "verde-text" }, [
+      _vm._v("Publique aqui a tua dúvida")
+    ]),
+    _vm._v(" "),
+    _c(
+      "form",
+      { attrs: { action: "" } },
+      [
+        _c(
+          "md-input-container",
+          [_c("label"), _vm._v(" "), _c("md-textarea")],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "md-input-container",
+          [
+            _c("label", [_vm._v("Pode adicionar imagem também")]),
+            _vm._v(" "),
+            _c("md-file", {
+              attrs: { accept: "image/*" },
+              model: {
+                value: _vm.onlyImages,
+                callback: function($$v) {
+                  _vm.onlyImages = $$v
+                },
+                expression: "onlyImages"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "md-button",
+          { staticClass: "md-fab md-primary md-mini" },
+          [_c("md-icon", [_vm._v("near_me")])],
+          1
+        )
+      ],
+      1
+    )
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-da5560ba", module.exports)
   }
 }
 

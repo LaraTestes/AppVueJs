@@ -16,6 +16,12 @@
 
             <div class="col-md-6 col-sm-6 col-7">
 
+                <duvida class="mb-2"></duvida>
+
+                <h5 class="verde-text">Dúvidas recentes</h5>
+
+                <md-divider></md-divider>
+
                 <wall class="mb-2"></wall>
                 <wall class="mb-2"></wall>
                 <wall class="mb-2"></wall>
