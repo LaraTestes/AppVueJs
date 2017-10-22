@@ -43431,7 +43431,7 @@ var render = function() {
     _c("p", { staticClass: "bg p-2" }, [
       _c(
         "a",
-        { staticClass: "l_verde", attrs: { href: "#explicador" } },
+        { staticClass: "l_verde", attrs: { href: "#explicadores" } },
         [
           _c("md-icon", [_vm._v("perm_identity")]),
           _vm._v(" "),
