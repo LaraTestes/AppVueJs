@@ -1,6 +1,6 @@
 <template>
 
-    <nav class="navbar navbar-fixed-top verde  sombra-1 init" role="navigation" >
+    <nav class="navbar navbar-fixed-top white  sombra-1 init" role="navigation" >
         <div class="container content-center">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand l_branco" href="">eXplicador</a>
+                <a class="navbar-brand l_verde" href="">eXplicador</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
 

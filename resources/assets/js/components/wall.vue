@@ -14,7 +14,6 @@
             <md-bottom-bar>
                 <md-bottom-bar-item md-icon="favorite" md-active>Gostar</md-bottom-bar-item>
                 <md-bottom-bar-item md-icon="visibility">Ver</md-bottom-bar-item>
-
                 <!--<md-bottom-bar-item md-icon="near_me">Enviar</md-bottom-bar-item>-->
             </md-bottom-bar>
         </md-card>

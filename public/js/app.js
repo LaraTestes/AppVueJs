@@ -43378,7 +43378,7 @@ function injectStyle (ssrContext) {
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = null
+var __vue_script__ = __webpack_require__(78)
 /* template */
 var __vue_template__ = __webpack_require__(49)
 /* template functional */
@@ -43431,7 +43431,7 @@ var render = function() {
     _c("p", { staticClass: "bg p-2" }, [
       _c(
         "a",
-        { staticClass: "l_verde", attrs: { href: "/" } },
+        { staticClass: "l_verde", attrs: { href: "#explicador" } },
         [
           _c("md-icon", [_vm._v("perm_identity")]),
           _vm._v(" "),
@@ -43444,7 +43444,7 @@ var render = function() {
     _c("p", { staticClass: "bg p-2" }, [
       _c(
         "a",
-        { staticClass: "l_verde", attrs: { href: "/" } },
+        { staticClass: "l_verde", attrs: { href: "#duvidas" } },
         [
           _c("md-icon", [_vm._v("question_answer")]),
           _vm._v(" "),
@@ -43457,7 +43457,7 @@ var render = function() {
     _c("p", { staticClass: "bg p-2" }, [
       _c(
         "a",
-        { staticClass: "l_verde", attrs: { href: "/" } },
+        { staticClass: "l_verde", attrs: { href: "#mensagens" } },
         [
           _c("md-icon", [_vm._v("question_answer")]),
           _vm._v(" "),
@@ -43470,7 +43470,7 @@ var render = function() {
     _c("p", { staticClass: "bg p-2" }, [
       _c(
         "a",
-        { staticClass: "l_verde", attrs: { href: "/" } },
+        { staticClass: "l_verde", attrs: { href: "#artigos" } },
         [
           _c("md-icon", [_vm._v("book")]),
           _vm._v(" "),
@@ -43969,7 +43969,7 @@ var staticRenderFns = [
     return _c(
       "nav",
       {
-        staticClass: "navbar navbar-fixed-top verde  sombra-1 init",
+        staticClass: "navbar navbar-fixed-top white  sombra-1 init",
         attrs: { role: "navigation" }
       },
       [
@@ -44002,7 +44002,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c(
               "a",
-              { staticClass: "navbar-brand l_branco", attrs: { href: "" } },
+              { staticClass: "navbar-brand l_verde", attrs: { href: "" } },
               [_vm._v("eXplicador")]
             )
           ]),
@@ -44621,7 +44621,7 @@ function injectStyle (ssrContext) {
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
-var __vue_script__ = null
+var __vue_script__ = __webpack_require__(79)
 /* template */
 var __vue_template__ = __webpack_require__(75)
 /* template functional */
@@ -44677,7 +44677,7 @@ var render = function() {
       [
         _c(
           "md-input-container",
-          [_c("label"), _vm._v(" "), _c("md-textarea")],
+          [_c("label", [_vm._v("Escrever")]), _vm._v(" "), _c("md-textarea")],
           1
         ),
         _vm._v(" "),
@@ -44764,6 +44764,127 @@ exports.push([module.i, "\nmd-button{\n    font-size:8px !important;\n}\n\n", ""
 
 // exports
 
+
+/***/ }),
+/* 78 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            opcaoClicada: '',
+
+            lists: {}
+        };
+    },
+
+
+    metodos: {
+        teste: function teste(opcao) {
+            alert(opcao);
+        },
+
+
+        test: function test(message) {
+            alert(message);
+        }
+    }
+
+});
+
+/***/ }),
+/* 79 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            single: null,
+            placeholder: null,
+            initialValue: 'my-profile-picture.jpg',
+            multiple: null,
+            onlyImages: null
+        };
+    }
+});
 
 /***/ })
 /******/ ]);

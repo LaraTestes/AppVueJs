@@ -7,7 +7,7 @@
         <form action="">
 
             <md-input-container>
-                <label></label>
+                <label>Escrever</label>
                 <md-textarea></md-textarea>
             </md-input-container>
 
@@ -25,6 +25,21 @@
     </md-card>
 
 </template>
+
+<script>
+
+    export default {
+        data: () => ({
+            single: null,
+            placeholder: null,
+            initialValue: 'my-profile-picture.jpg',
+            multiple: null,
+            onlyImages: null
+        })
+    };
+
+</script>
+
 
 <style>
 
