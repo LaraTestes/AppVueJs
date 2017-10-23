@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/perfil', function () {
+Route::get('/perfil1', function () {
     return view('perfil');
 });
 

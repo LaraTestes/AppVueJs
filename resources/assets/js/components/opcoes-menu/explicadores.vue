@@ -16,9 +16,10 @@
                         </md-avatar>
 
                         <div class="md-list-text-container">
-                            <router-link to="/perfil" class="l_verde">
-                                Claud Sumbus
-                            </router-link>
+                            <!--<router-link to="/perfil" class="l_verde">-->
+                                <!--Claud Sumbus-->
+                            <!--</router-link>-->
+                            <a href="/perfil1" class="l_verde">Claud</a>
                             <!--<span>Claud Sumbus</span>-->
                             <span>POO, FP, AN, ES, II</span>
                             <p>I'll be in your neighborhood doing errands...</p>

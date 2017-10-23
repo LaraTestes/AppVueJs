@@ -46925,7 +46925,7 @@ var render = function() {
             "a",
             {
               staticClass: "navbar-brand l_verde",
-              attrs: { href: "#/duvidas" }
+              attrs: { href: "/duvidas" }
             },
             [_vm._v("eXplicador")]
           )
@@ -48207,30 +48207,19 @@ var render = function() {
                       })
                     ]),
                     _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "md-list-text-container" },
-                      [
-                        _c(
-                          "router-link",
-                          { staticClass: "l_verde", attrs: { to: "/perfil" } },
-                          [
-                            _vm._v(
-                              "\n                            Claud Sumbus\n                        "
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c("span", [_vm._v("POO, FP, AN, ES, II")]),
-                        _vm._v(" "),
-                        _c("p", [
-                          _vm._v(
-                            "I'll be in your neighborhood doing errands..."
-                          )
-                        ])
-                      ],
-                      1
-                    ),
+                    _c("div", { staticClass: "md-list-text-container" }, [
+                      _c(
+                        "a",
+                        { staticClass: "l_verde", attrs: { href: "/perfil1" } },
+                        [_vm._v("Claud")]
+                      ),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("POO, FP, AN, ES, II")]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v("I'll be in your neighborhood doing errands...")
+                      ])
+                    ]),
                     _vm._v(" "),
                     _c(
                       "md-button",
