@@ -27,6 +27,8 @@
             <div class="col-md-3 col-sm-3 col-3">
 
                 <right></right>
+                <router-view></router-view>
+
 
             </div>
 

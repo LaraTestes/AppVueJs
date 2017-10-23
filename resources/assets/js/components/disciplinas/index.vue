@@ -2,7 +2,7 @@
 
         <div class="sombra-1 p-2 white mb-4">
 
-            <h5 class="p-2 sombra-1 verde-text content-center bg">Atualização de Dados</h5>
+            <h5 class="p-2 sombra-1 verde-text content-center bg">Disciplinas</h5>
 
             <md-tabs class="md-transparent">
                 <md-tab id="disciplinas" md-label="Disciplinas">
